@@ -1,0 +1,61 @@
+@import 'tailwindcss';
+
+/* Class-based dark mode: toggled by adding `.dark` on <html>. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* Typography — Poppins for everything, Inconsolata for mono/eyebrows. */
+  --font-sans: var(--font-poppins), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-inconsolata), ui-monospace, 'SFMono-Regular', monospace;
+
+  /* Brand palette.
+     Light mode: warm near-white paper + very dark blue ink.
+     Dark mode: the two are inverted via utility classes. */
+  --color-paper: #f4f3ef;
+  --color-paper-soft: #fbfaf7;
+  --color-ink: #0b1120;
+  --color-ink-soft: #111a2e;
+
+  /* Single accent colour used for buttons, links and icon chips. */
+  --color-accent: #6ba5f7;
+  --color-accent-strong: #4e8fe8;
+  --color-accent-soft: #a9caf9;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-paper text-ink antialiased dark:bg-ink dark:text-paper;
+  }
+
+  /* Respect users who prefer reduced motion. */
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+
+  /* Avoid a flash of unstyled selection colour. */
+  ::selection {
+    background-color: var(--color-accent);
+    color: #ffffff;
+  }
+}
+
+/* Reusable helpers for prose-like rich text rendered from content data. */
+@layer components {
+  .link-accent {
+    @apply font-medium text-accent underline-offset-4 hover:underline;
+  }
+}
