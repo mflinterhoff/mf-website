@@ -3,3 +3,19 @@
 
 # Master template — large local-only source asset, do not commit
 brand/Template-Original-2401-Abstract-Bavarian-blue-Kassandrasart.jpg
+
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+next-env.d.ts
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# misc
+*.tsbuildinfo
