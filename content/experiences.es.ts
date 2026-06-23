@@ -244,7 +244,7 @@ export const experiencesEs: Experience[] = [
     ],
     caseStudies: [
       {
-        title: 'Cambio de Asana a Notion — Flinterhoff GmbH',
+        title: 'Cambio de Asana a Notion, Flinterhoff GmbH',
         blocks: [
           { kind: 'subheading', text: 'Situación inicial' },
           {
@@ -270,7 +270,7 @@ export const experiencesEs: Experience[] = [
         ],
       },
       {
-        title: 'Cambio de Microsoft Office 365 a Google Workspace — Flinterhoff GmbH',
+        title: 'Cambio de Microsoft Office 365 a Google Workspace, Flinterhoff GmbH',
         blocks: [
           { kind: 'subheading', text: 'Situación inicial' },
           {
@@ -296,7 +296,7 @@ export const experiencesEs: Experience[] = [
         ],
       },
       {
-        title: 'Cambio de WooCommerce a Shopify — Flinterhoff GmbH',
+        title: 'Cambio de WooCommerce a Shopify, Flinterhoff GmbH',
         blocks: [
           { kind: 'subheading', text: 'Situación inicial' },
           {
@@ -322,7 +322,7 @@ export const experiencesEs: Experience[] = [
         ],
       },
       {
-        title: 'Cambio del sistema ERP NetSoft a SmartHandwerk — Flinterhoff GmbH',
+        title: 'Cambio del sistema ERP NetSoft a SmartHandwerk, Flinterhoff GmbH',
         blocks: [
           { kind: 'subheading', text: 'Situación inicial' },
           {
@@ -348,7 +348,7 @@ export const experiencesEs: Experience[] = [
         ],
       },
       {
-        title: 'Configuración del primer sistema ERP y PoS — Flinterhoff GmbH',
+        title: 'Configuración del primer sistema ERP y PoS, Flinterhoff GmbH',
         blocks: [
           { kind: 'subheading', text: 'Situación inicial' },
           {
@@ -431,7 +431,7 @@ export const experiencesEs: Experience[] = [
           { kind: 'subheading', text: 'Resultado' },
           {
             kind: 'paragraph',
-            text: 'El workspace funcionó de forma continua durante más de cuatro años, cubriendo e-commerce, operaciones de tienda y marketing desde un entorno compartido. Más de 550 entradas de contenido registradas en 2023–2024, con coste por alcance y coste por interacción calculados automáticamente. El conocimiento y el historial se preservaron íntegramente tras el cierre de la unidad minorista a finales de 2024.',
+            text: 'El workspace funcionó de forma continua durante más de cuatro años, cubriendo e-commerce, operaciones de tienda y marketing desde un entorno compartido. Más de 550 entradas de contenido registradas en 2023-2024, con coste por alcance y coste por interacción calculados automáticamente. El conocimiento y el historial se preservaron íntegramente tras el cierre de la unidad minorista a finales de 2024.',
           },
           {
             kind: 'note',
@@ -560,7 +560,7 @@ export const experiencesEs: Experience[] = [
     ],
     caseStudies: [
       {
-        title: 'Creación de un Asesor para Preguntas de Gestión Empresarial — Flinterhoff GmbH / KG',
+        title: 'Creación de un Asesor para Preguntas de Gestión Empresarial, Flinterhoff GmbH / KG',
         blocks: [
           { kind: 'subheading', text: 'Situación Inicial' },
           {
@@ -737,12 +737,12 @@ export const experiencesEs: Experience[] = [
     ],
     caseStudies: [
       {
-        title: 'PacketSafari — Onboarding Más Rápido y Más Conversiones de Suscripciones',
+        title: 'PacketSafari: Onboarding Más Rápido y Más Conversiones de Suscripciones',
         blocks: [
           { kind: 'subheading', text: 'Situación Inicial' },
           {
             kind: 'paragraph',
-            text: '[PacketSafari](https://www.packetsafari.com/) — un proveedor de análisis de tráfico de red — quería optimizar el proceso de descubrimiento de su aplicación web, para que los usuarios pudieran probar el producto más rápido, el valor quedara inmediatamente claro y las suscripciones se completaran con mayor rapidez.',
+            text: '[PacketSafari](https://www.packetsafari.com/), un proveedor de análisis de tráfico de red, quería optimizar el proceso de descubrimiento de su aplicación web, para que los usuarios pudieran probar el producto más rápido, el valor quedara inmediatamente claro y las suscripciones se completaran con mayor rapidez.',
           },
           { kind: 'subheading', text: 'Medidas' },
           {
@@ -761,12 +761,12 @@ export const experiencesEs: Experience[] = [
         ],
       },
       {
-        title: 'SiteWorks2 — Textos de Interfaz Más Precisos para Usuarios Alemanes',
+        title: 'SiteWorks2: Textos de Interfaz Más Precisos para Usuarios Alemanes',
         blocks: [
           { kind: 'subheading', text: 'Situación Inicial' },
           {
             kind: 'paragraph',
-            text: 'El fundador de [SiteWorks2](https://www.siteworks.io/en) — una aplicación de planificación para arquitectos y jefes de proyecto — buscaba apoyo para optimizar la localización alemana. Algunas de las traducciones existentes eran inconsistentes o ambiguas en el contexto de la aplicación.',
+            text: 'El fundador de [SiteWorks2](https://www.siteworks.io/en), una aplicación de planificación para arquitectos y jefes de proyecto, buscaba apoyo para optimizar la localización alemana. Algunas de las traducciones existentes eran inconsistentes o ambiguas en el contexto de la aplicación.',
           },
           { kind: 'subheading', text: 'Medidas' },
           {
@@ -825,7 +825,7 @@ export const experiencesEs: Experience[] = [
     ],
     caseStudies: [
       {
-        title: 'Nueva identidad de marca para Flinterhoff — Für dich & mich',
+        title: 'Nueva identidad de marca para Flinterhoff: Für dich & mich',
         blocks: [
           { kind: 'subheading', text: 'Situación inicial' },
           {
@@ -845,7 +845,7 @@ export const experiencesEs: Experience[] = [
           { kind: 'subheading', text: 'Resultado' },
           {
             kind: 'paragraph',
-            text: 'El nuevo diseño capturó la esencia de la marca: personal, de alta calidad y confiable. El equipo se identificó con la nueva identidad y el público objetivo se sintió interpelado. Tasas de apertura del 40–55% y altas tasas de clics confirmaron la relevancia de la comunicación.',
+            text: 'El nuevo diseño capturó la esencia de la marca: personal, de alta calidad y confiable. El equipo se identificó con la nueva identidad y el público objetivo se sintió interpelado. Tasas de apertura del 40-55% y altas tasas de clics confirmaron la relevancia de la comunicación.',
           },
         ],
       },

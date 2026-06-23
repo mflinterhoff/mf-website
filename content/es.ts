@@ -4,16 +4,16 @@ import { experiencesEs } from './experiences.es'
 const es: SiteContent = {
   locale: 'es',
   meta: {
-    title: 'Matthias Flinterhoff — Gestor y Tecnólogo',
+    title: 'Matthias Flinterhoff | Gestor y Tecnólogo',
     description:
       'Operador y gestor que reestructura empresas, implementa sistemas y realiza migraciones. Estudio y diseño organizaciones que empoderan a las personas, en lugar de reemplazarlas.',
   },
   nav: [
     { key: 'vita', label: 'Biografía', href: '/vita', icon: 'vita' },
-    { key: 'inspiration', label: 'Inspiración', href: '/inspiration', icon: 'inspiration' },
     { key: 'approach', label: 'Enfoque', href: '/approach', icon: 'approach' },
     { key: 'questions', label: 'Para líderes', href: '/questions', icon: 'questions' },
     { key: 'experiences', label: 'Experiencias', href: '/#experiences', icon: 'refining-business-models' },
+    { key: 'inspiration', label: 'Inspiración', href: '/inspiration', icon: 'inspiration' },
   ],
   ui: {
     skipToContent: 'Saltar al contenido',
@@ -23,21 +23,24 @@ const es: SiteContent = {
     openMenu: 'Abrir menú',
     closeMenu: 'Cerrar menú',
     backToHome: 'Volver al inicio',
+    backToExperiences: 'Volver a las experiencias',
     learnMore: 'Saber más',
     onThisPage: 'En esta página',
     contactCta: 'Hablemos',
     playbook: 'Guía',
     caseStudy: 'Caso práctico',
     caseStudies: 'Casos prácticos',
+    moreExperiences: 'Más experiencias',
   },
   home: {
     quote: 'Construyo, cuido, conecto, aprendo y enseño.',
     heroLead:
-      'Durante más de 9 años he reestructurado empresas, implementado sistemas y llevado a cabo migraciones, liderando las funciones transversales de finanzas y marketing. Más recientemente, 3,5 años como Director General.',
+      'Durante más de 9 años he sido la persona en quien las organizaciones confían cuando algo necesita comprenderse, reestructurarse y ser adoptado por personas que no pidieron el cambio.',
     eyebrow: 'Sobre mí',
     introTitle: 'Gestor y Tecnólogo',
+    aboutTitle: 'El cambio es mi pan de cada día',
     intro: [
-      'Durante más de 9 años he sido operador y gestor, reestructurando empresas, implementando sistemas, llevando a cabo migraciones y siendo responsable de funciones transversales como finanzas y marketing. Lidero cuando algo necesita comprenderse, reorganizarse y ser adoptado por personas que no pidieron el cambio. Más recientemente, pasé 3,5 años como Director General antes de volver a mi trabajo en transformación empresarial a través de mi consultora. Antes de eso, lideré iniciativas como consultor interno durante más de 4 años.',
+      'Soy un operador con amplia experiencia en la reestructuración de empresas, la implementación de sistemas, la ejecución de migraciones y la dirección de las funciones transversales de finanzas y marketing. Más recientemente, pasé 3,5 años como Director General antes de volver al trabajo de transformación empresarial a través de mi propia consultora. Antes de eso, lideré iniciativas como consultor interno durante más de 4 años.',
       'Proveniente de una familia de empresarios y voluntarios, me han fascinado las organizaciones desde mi juventud: grupos de personas que se reúnen para perseguir un objetivo común y benefician a la sociedad creando seguridad, prosperidad y continuidad.',
       'Son la columna vertebral de la civilización, si se hacen bien. [The Company of Strangers de Paul Seabright](https://www.amazon.com/Company-Strangers-Natural-History-Economic/dp/0691146462) ofrece una visión profunda sobre esto.',
       'Eso es precisamente por lo que estudio y diseño organizaciones que sea un placer dirigir, que ayuden a las personas a prosperar y que empoderen a la gente, en lugar de reemplazarla.',
@@ -46,7 +49,7 @@ const es: SiteContent = {
       label: 'Recién salido del horno',
       title: 'Monami AI',
       description:
-        'Software sin fricción para impulsar la alfabetización económica y en IA en personas — mi último producto, creado con Claude Code.',
+        'Software sin fricción para impulsar la alfabetización económica y en IA en personas. Mi último producto.',
       cta: 'Visitar Monami AI',
       href: 'https://monamiai.com',
     },
@@ -68,16 +71,9 @@ const es: SiteContent = {
           icon: 'vita',
         },
         {
-          key: 'inspiration',
-          title: 'Lo que me inspira',
-          description: 'Valencia, arte, libros, música y las ideas de las que no me canso.',
-          href: '/inspiration',
-          icon: 'inspiration',
-        },
-        {
           key: 'approach',
           title: 'Cómo consigo hacer las cosas',
-          description: 'Una mentalidad abierta pero cuestionadora — primero entender, luego diseñar con alegría.',
+          description: 'Una mentalidad abierta pero cuestionadora: primero entender, luego diseñar con alegría.',
           href: '/approach',
           icon: 'approach',
         },
@@ -88,11 +84,18 @@ const es: SiteContent = {
           href: '/questions',
           icon: 'questions',
         },
+        {
+          key: 'inspiration',
+          title: 'Lo que me inspira',
+          description: 'Valencia, arte, libros, música y las ideas de las que no me canso.',
+          href: '/inspiration',
+          icon: 'inspiration',
+        },
       ],
     },
     experiences: {
       title: 'Experiencias',
-      subtitle: 'Dónde puedo ayudar — agrupado por área, cada uno con una guía y casos prácticos reales.',
+      subtitle: 'Dónde puedo ayudar, agrupado por área, cada uno con una guía y casos prácticos reales.',
       areaLabels: {
         corporate: 'Gestión empresarial',
         it: 'IT',
@@ -135,7 +138,7 @@ const es: SiteContent = {
       },
       {
         title: 'Ir al grano.',
-        body: 'Los resultados visibles — tanto positivos como negativos — crean claridad. **Esta claridad permite a la organización actuar**, lo que a su vez da el control para tomar decisiones bien meditadas. Eso es lo que busco.',
+        body: 'Los resultados visibles, tanto positivos como negativos, crean claridad. **Esta claridad permite a la organización actuar**, lo que a su vez da el control para tomar decisiones bien meditadas. Eso es lo que busco.',
         tagline: '',
       },
       {
@@ -216,32 +219,32 @@ const es: SiteContent = {
     experienceTitle: 'Experiencia profesional',
     positions: [
       {
-        period: '06/2025 – ahora',
+        period: '06/2025 - ahora',
         role: 'Fundador',
         org: 'tahi.design, Valencia, España',
         description:
           'Consultoría de transformación de negocios que aporta estabilidad y claridad a sus clientes mediante la optimización de experiencias digitales de usuario y la mejora de sistemas para gestionar finanzas, marketing y RR. HH. sin fricciones. Desarrollando aplicaciones de productividad con Claude Code. Volví a fundarla después de mi etapa como director general.',
         note: {
-          title: '01/2026 – 03/2026: Baja por paternidad',
+          title: '01/2026 - 03/2026: Baja por paternidad',
           text: 'Mi esposa y yo dimos la bienvenida a nuestro primer hijo a este hermoso mundo. Durante este tiempo, estudié inversión en valor.',
         },
       },
       {
-        period: '01/2022 – 06/2025',
+        period: '01/2022 - 06/2025',
         role: 'Director General',
         org: 'Flinterhoff GmbH, Kalkar, Alemania',
         description:
           'Empresa familiar con dos unidades de negocio diferenciadas: comercio minorista y construcción metálica. Me incorporé a la dirección en una fase de complejidad estructural y presión financiera y me centré en restablecer la claridad, la estabilidad y la viabilidad a largo plazo. Mis responsabilidades abarcaron la gestión financiera y las previsiones, el rediseño de sistemas y procesos, el comercio digital y la reestructuración estratégica, incluida una exitosa fase de cambio de rumbo y el cierre responsable del negocio minorista en 2024.',
       },
       {
-        period: '01/2021 – 12/2021',
+        period: '01/2021 - 12/2021',
         role: 'Fundador',
         org: 'tahi.design, Kalkar, Alemania',
         description:
           'Consultoría de transformación de negocios que ha producido manuales de marketing claros, sistemas de diseño y experiencias digitales y procesos. Para Flinterhoff GmbH, creamos un sistema de diseño de marca para el reposicionamiento minorista y comenzamos a desarrollar un sistema de comercio electrónico personalizado. Para Kreishandwerkerschaft Kleve, una corporación pública que apoya a las empresas de comercio regional, realizamos una investigación de las partes interesadas y construimos un sitio web que sirve como punto de acceso central para documentos legales, contactos e información profesional para más de 4.100 empresas. Tahi.design cerró tras un año de éxitos para centrarse en Flinterhoff GmbH.',
       },
       {
-        period: '09/2016 – 12/2020',
+        period: '09/2016 - 12/2020',
         role: 'Consultor Interno',
         org: 'Flinterhoff GmbH, Kalkar, Alemania',
         description:
@@ -252,19 +255,19 @@ const es: SiteContent = {
     educationTitle: 'Formación académica',
     education: [
       {
-        degree: 'Máster en Artes (M.A.): Gestión de medios de comunicación y empresariado (2016) – 1,2',
+        degree: 'Máster en Artes (M.A.): Gestión de medios de comunicación y empresariado (2016), 1,2',
         focus:
-          'Tesis: Business Model Innovation as an important value driver in corporations — A structured analysis and systematic evaluation of existing concepts.',
+          'Tesis: Business Model Innovation as an important value driver in corporations. A structured analysis and systematic evaluation of existing concepts.',
         activities:
-          'Actividades: Profesor de transformación digital después de la graduación (09/2016–02/2017); viajes de estudio a Berlín, Silicon Valley y Tel Aviv; discurso como representante de clase en el día de graduación.',
-        school: 'Hochschule Fresenius — Universidad de Ciencias Aplicadas, Colonia, GER',
+          'Actividades: Profesor de transformación digital después de la graduación (09/2016-02/2017); viajes de estudio a Berlín, Silicon Valley y Tel Aviv; discurso como representante de clase en el día de graduación.',
+        school: 'Hochschule Fresenius, Universidad de Ciencias Aplicadas, Colonia, GER',
       },
       {
-        degree: 'Bachelor of Arts (B.A.): Estudios de Medios Aplicados (2014) – 1,6',
+        degree: 'Bachelor of Arts (B.A.): Estudios de Medios Aplicados (2014), 1,6',
         focus: 'Enfoque: Medios de comunicación, deportes y gestión de eventos',
         activities:
           'Actividades: Representante de clase; apoyo a la representación estudiantil en la organización de eventos y fines de semana de bienvenida.',
-        school: 'Hochschule Mittweida & Hochschule Fresenius — Universidades de Ciencias Aplicadas, GER',
+        school: 'Hochschule Mittweida & Hochschule Fresenius, Universidades de Ciencias Aplicadas, GER',
       },
     ],
     assetsTitle: 'Activos',
@@ -277,7 +280,7 @@ const es: SiteContent = {
     },
     languages: {
       title: 'Idiomas',
-      items: ['Alemán: Lengua materna', 'Inglés: Profesional (C2)', 'Español: Fluido (B2 – Tomando clases)'],
+      items: ['Alemán: Lengua materna', 'Inglés: Profesional (C2)', 'Español: Fluido (B2, tomando clases)'],
     },
     tools: {
       title: 'Herramientas relevantes',
@@ -287,7 +290,7 @@ const es: SiteContent = {
           label: 'IA',
           tools: [
             { name: 'Claude', href: 'https://claude.ai/', primary: true },
-            { name: 'NotionAI', href: 'https://www.notion.com/product/ai', primary: true },
+            { name: 'NotionAI', href: 'https://www.notion.com/product/ai' },
             { name: 'ChatGPT', href: 'https://chatgpt.com' },
             { name: 'Google Gemini', href: 'https://gemini.google.com/' },
             { name: 'NotebookLM', href: 'https://notebooklm.google/' },
@@ -297,7 +300,7 @@ const es: SiteContent = {
           label: 'Colaboración',
           tools: [
             { name: 'Google Workspace', href: 'https://workspace.google.com/', primary: true },
-            { name: 'Notion', href: 'https://notion.so', primary: true },
+            { name: 'Notion', href: 'https://notion.so' },
             { name: 'Asana', href: 'https://asana.com/' },
             { name: 'Microsoft 365', href: 'https://www.microsoft.com/microsoft-365' },
             { name: 'Miro', href: 'https://miro.com/' },
@@ -308,7 +311,7 @@ const es: SiteContent = {
           label: 'Contenido, diseño, creación de prototipos',
           tools: [
             { name: 'Affinity Studio', href: 'https://www.affinity.studio/', primary: true },
-            { name: 'Figma', href: 'https://figma.com/', primary: true },
+            { name: 'Figma', href: 'https://figma.com/' },
             { name: 'Adobe Creative Cloud', href: 'https://www.adobe.com/creativecloud.html' },
             { name: 'DaVinci Resolve', href: 'https://www.blackmagicdesign.com/products/davinciresolve' },
             { name: 'Canva', href: 'https://canva.com' },
@@ -327,7 +330,7 @@ const es: SiteContent = {
         {
           label: 'Sitio web sin código / eCommerce',
           tools: [
-            { name: 'Shopify', href: 'https://shopify.com', primary: true },
+            { name: 'Shopify', href: 'https://shopify.com' },
             { name: 'Webflow', href: 'https://webflow.com/' },
             { name: 'WiX', href: 'https://www.wix.com/' },
             { name: 'WordPress / WooCommerce', href: 'https://wordpress.com/' },

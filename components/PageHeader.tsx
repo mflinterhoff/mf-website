@@ -9,12 +9,14 @@ import { renderInline } from './RichText'
 export function PageHeader({
   locale,
   backLabel,
+  backHref = '/',
   eyebrow,
   title,
   intro,
 }: {
   locale: Locale
   backLabel: string
+  backHref?: string
   eyebrow?: string
   title: string
   intro?: string
@@ -22,7 +24,7 @@ export function PageHeader({
   return (
     <Container size="narrow" className="pt-12 pb-2 sm:pt-16">
       <Link
-        href={localeHref(locale, '/')}
+        href={localeHref(locale, backHref)}
         className="inline-flex items-center gap-1.5 text-sm font-medium text-ink/60 transition hover:text-accent dark:text-paper/60"
       >
         <ArrowLeftIcon aria-hidden="true" className="size-4" />

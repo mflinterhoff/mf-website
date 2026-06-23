@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import { GlobeAltIcon } from '@heroicons/react/24/outline'
-import { LOCALES, LOCALE_LABELS, LOCALE_FLAGS, type Locale } from '@/content/types'
+import { LOCALES, LOCALE_LABELS, type Locale } from '@/content/types'
 import { swapLocaleInPath } from '@/lib/i18n'
 
 export function LanguageSwitcher({ locale, label }: { locale: Locale; label: string }) {
@@ -30,11 +30,10 @@ export function LanguageSwitcher({ locale, label }: { locale: Locale; label: str
           <MenuItem key={l}>
             <Link
               href={swapLocaleInPath(pathname, l as Locale)}
-              className={`flex items-center gap-3 rounded-lg px-3 py-2 text-sm data-focus:bg-ink/5 dark:data-focus:bg-paper/10 ${
+              className={`block rounded-lg px-3 py-2 text-sm data-focus:bg-ink/5 dark:data-focus:bg-paper/10 ${
                 l === locale ? 'font-semibold text-accent' : 'text-ink/80 dark:text-paper/80'
               }`}
             >
-              <span aria-hidden="true">{LOCALE_FLAGS[l as Locale]}</span>
               {LOCALE_LABELS[l as Locale]}
             </Link>
           </MenuItem>

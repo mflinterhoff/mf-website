@@ -19,7 +19,10 @@ export async function generateMetadata({
   if (!isLocale(locale)) return {}
   const { meta } = getContent(locale)
   return {
-    title: meta.title,
+    // `default` is used by the homepage (it inherits this layout's title), so it
+    // shows the full localized title without being doubled by a template.
+    // `template` re-applies the "| Matthias Flinterhoff" suffix to subpages.
+    title: { default: meta.title, template: '%s | Matthias Flinterhoff' },
     description: meta.description,
     alternates: {
       canonical: `/${locale}`,
