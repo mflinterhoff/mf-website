@@ -110,18 +110,21 @@ export type SiteContent = {
     openMenu: string
     closeMenu: string
     backToHome: string
+    backToExperiences: string
     learnMore: string
     onThisPage: string
     contactCta: string
     playbook: string
     caseStudy: string
     caseStudies: string
+    moreExperiences: string
   }
   home: {
     quote: string
     heroLead: string
     eyebrow: string
     introTitle: string
+    aboutTitle: string
     intro: string[]
     fresh: { label: string; title: string; description: string; cta: string; href: string }
     sideProjects: { title: string; items: string[] }

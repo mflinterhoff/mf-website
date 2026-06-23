@@ -45,7 +45,7 @@ export const experiencesDe: Experience[] = [
         title: 'Turnaround der Flinterhoff GmbH',
         blocks: [
           { kind: 'subheading', text: 'Ausgangslage' },
-          { kind: 'paragraph', text: 'Kritische wirtschaftliche Situation (2015–2016).' },
+          { kind: 'paragraph', text: 'Kritische wirtschaftliche Situation (2015-2016).' },
           { kind: 'subheading', text: 'Maßnahmen' },
           {
             kind: 'bullets',
@@ -136,7 +136,7 @@ export const experiencesDe: Experience[] = [
           { kind: 'subheading', text: 'Ergebnis' },
           {
             kind: 'paragraph',
-            text: 'Klarheit, Handlungsfähigkeit und Kontrolle – und eine höhere Zufriedenheit sowie reibungslosere Zusammenarbeit mit der Steuerberatung.',
+            text: 'Klarheit, Handlungsfähigkeit und Kontrolle, und eine höhere Zufriedenheit sowie reibungslosere Zusammenarbeit mit der Steuerberatung.',
           },
         ],
       },
@@ -250,12 +250,12 @@ export const experiencesDe: Experience[] = [
     ],
     caseStudies: [
       {
-        title: 'Wechsel von Asana zu Notion — Flinterhoff GmbH',
+        title: 'Wechsel von Asana zu Notion, Flinterhoff GmbH',
         blocks: [
           { kind: 'subheading', text: 'Ausgangslage' },
           {
             kind: 'paragraph',
-            text: 'Als Geschäftsführer suchte ich ein flexibleres Tool, das Projekte, Aufgaben und Wissen in einer Umgebung vereint. Wir wollten unsere Meeting-Notizen, Aufgaben, Projekte und Dokumente wie Leitfäden oder Berichte zentral pflegen – einfach, erweiterbar und schnell. Die Apps aus Google Workspace boten dafür zu wenig Verbindung und Kontext.',
+            text: 'Als Geschäftsführer suchte ich ein flexibleres Tool, das Projekte, Aufgaben und Wissen in einer Umgebung vereint. Wir wollten unsere Meeting-Notizen, Aufgaben, Projekte und Dokumente wie Leitfäden oder Berichte zentral pflegen: einfach, erweiterbar und schnell. Die Apps aus Google Workspace boten dafür zu wenig Verbindung und Kontext.',
           },
           { kind: 'subheading', text: 'Maßnahmen' },
           {
@@ -276,12 +276,12 @@ export const experiencesDe: Experience[] = [
         ],
       },
       {
-        title: 'Wechsel von Microsoft Office 365 zu Google Workspace — Flinterhoff GmbH',
+        title: 'Wechsel von Microsoft Office 365 zu Google Workspace, Flinterhoff GmbH',
         blocks: [
           { kind: 'subheading', text: 'Ausgangslage' },
           {
             kind: 'paragraph',
-            text: 'Während meiner Zeit als Geschäftsführer wollten wir die Zusammenarbeit vereinfachen und von einer Hybrid-Lösung zu einer schlanken, nativen Cloud-Umgebung wechseln. Microsoft 365 war im Alltag zu träge und unübersichtlich – gesucht war mehr Tempo, Klarheit und Freude an der Nutzung.',
+            text: 'Während meiner Zeit als Geschäftsführer wollten wir die Zusammenarbeit vereinfachen und von einer Hybrid-Lösung zu einer schlanken, nativen Cloud-Umgebung wechseln. Microsoft 365 war im Alltag zu träge und unübersichtlich. Gesucht war mehr Tempo, Klarheit und Freude an der Nutzung.',
           },
           { kind: 'subheading', text: 'Maßnahmen' },
           {
@@ -302,7 +302,7 @@ export const experiencesDe: Experience[] = [
         ],
       },
       {
-        title: 'Wechsel von WooCommerce zu Shopify — Flinterhoff GmbH',
+        title: 'Wechsel von WooCommerce zu Shopify, Flinterhoff GmbH',
         blocks: [
           { kind: 'subheading', text: 'Ausgangslage' },
           {
@@ -328,12 +328,12 @@ export const experiencesDe: Experience[] = [
         ],
       },
       {
-        title: 'Wechsel von ERP-System NetSoft zu SmartHandwerk — Flinterhoff GmbH',
+        title: 'Wechsel von ERP-System NetSoft zu SmartHandwerk, Flinterhoff GmbH',
         blocks: [
           { kind: 'subheading', text: 'Ausgangslage' },
           {
             kind: 'paragraph',
-            text: 'Gesucht wurde eine günstigere, schlankere Büro-Software mit flexibleren Kündigungsoptionen – ein System, das Buchhaltung, Projektverwaltung, OP-Verwaltung und Kundenkommunikation zuverlässig abbildet. NetSoft wirkte veraltet und war umständlich zu bedienen.',
+            text: 'Gesucht wurde eine günstigere, schlankere Büro-Software mit flexibleren Kündigungsoptionen, ein System, das Buchhaltung, Projektverwaltung, OP-Verwaltung und Kundenkommunikation zuverlässig abbildet. NetSoft wirkte veraltet und war umständlich zu bedienen.',
           },
           { kind: 'subheading', text: 'Maßnahmen' },
           {
@@ -354,7 +354,7 @@ export const experiencesDe: Experience[] = [
         ],
       },
       {
-        title: 'Einrichtung des ersten Warenwirtschafts- & PoS-Systems — Flinterhoff GmbH',
+        title: 'Einrichtung des ersten Warenwirtschafts- & PoS-Systems, Flinterhoff GmbH',
         blocks: [
           { kind: 'subheading', text: 'Ausgangslage' },
           {
@@ -375,7 +375,7 @@ export const experiencesDe: Experience[] = [
           { kind: 'subheading', text: 'Ergebnis' },
           {
             kind: 'paragraph',
-            text: 'Das Team fand sich überraschend schnell in der neuen Software zurecht. Das System brachte Sicherheit, Routine und Vertrauen – und legte damit die Grundlage für alle späteren Software-Wechsel im Unternehmen.',
+            text: 'Das Team fand sich überraschend schnell in der neuen Software zurecht. Das System brachte Sicherheit, Routine und Vertrauen, und legte damit die Grundlage für alle späteren Software-Wechsel im Unternehmen.',
           },
         ],
       },
@@ -437,11 +437,11 @@ export const experiencesDe: Experience[] = [
           { kind: 'subheading', text: 'Ergebnis' },
           {
             kind: 'paragraph',
-            text: 'Der Workspace lief über vier Jahre durchgehend und steuerte E-Commerce, Ladenbetrieb und Marketing aus einer gemeinsamen Umgebung. Über 550 Content-Einträge in 2023–2024 wurden erfasst, mit automatisch berechneten Kosten pro Reichweite und pro Interaktion. Wissen und Geschichte blieben nach der Schließung der Einzelhandelseinheit Ende 2024 vollständig erhalten.',
+            text: 'Der Workspace lief über vier Jahre durchgehend und steuerte E-Commerce, Ladenbetrieb und Marketing aus einer gemeinsamen Umgebung. Über 550 Content-Einträge in 2023-2024 wurden erfasst, mit automatisch berechneten Kosten pro Reichweite und pro Interaktion. Wissen und Geschichte blieben nach der Schließung der Einzelhandelseinheit Ende 2024 vollständig erhalten.',
           },
           {
             kind: 'note',
-            text: '**Einblick auf Anfrage.** Auf Wunsch zeige ich Ihnen den Workspace – inklusive Erläuterung, wie Datenbankstruktur, Vorlagen und Auswertungen auf Ihr Unternehmen übertragbar wären.',
+            text: '**Einblick auf Anfrage.** Auf Wunsch zeige ich Ihnen den Workspace, inklusive Erläuterung, wie Datenbankstruktur, Vorlagen und Auswertungen auf Ihr Unternehmen übertragbar wären.',
           },
         ],
       },
@@ -499,7 +499,7 @@ export const experiencesDe: Experience[] = [
           { kind: 'subheading', text: 'Ausgangslage' },
           {
             kind: 'paragraph',
-            text: 'Benötigt wurde ein übersichtliches, anpassbares Planungstool zur Darstellung von Liquidität über mehrere Bankkonten hinweg – inklusive Kontokorrentlinien, Plan-/Ist-Vergleich und flexibler Zeitachsen-Auswertung – vollständig in Google Workspace umsetzbar.',
+            text: 'Benötigt wurde ein übersichtliches, anpassbares Planungstool zur Darstellung von Liquidität über mehrere Bankkonten hinweg, inklusive Kontokorrentlinien, Plan-/Ist-Vergleich und flexibler Zeitachsen-Auswertung, vollständig in Google Workspace umsetzbar.',
           },
           { kind: 'subheading', text: 'Maßnahmen' },
           {
@@ -513,7 +513,7 @@ export const experiencesDe: Experience[] = [
           { kind: 'subheading', text: 'Ergebnis' },
           {
             kind: 'paragraph',
-            text: 'Ein intuitives, zeitsparendes Tool, das vollständige Transparenz über künftige Ein- und Auszahlungen schafft – ohne manuelles, fehleranfälliges Zusammenrechnen oder parallele Systeme.',
+            text: 'Ein intuitives, zeitsparendes Tool, das vollständige Transparenz über künftige Ein- und Auszahlungen schafft, ohne manuelles, fehleranfälliges Zusammenrechnen oder parallele Systeme.',
           },
         ],
       },
@@ -566,14 +566,14 @@ export const experiencesDe: Experience[] = [
     ],
     caseStudies: [
       {
-        title: 'Erstellung eines Beraters für betriebswirtschaftliche Fragen — Flinterhoff GmbH / KG',
+        title: 'Erstellung eines Beraters für betriebswirtschaftliche Fragen, Flinterhoff GmbH / KG',
         blocks: [
           { kind: 'subheading', text: 'Ausgangslage' },
           {
             kind: 'bullets',
             items: [
               'Ich habe das Unternehmen im Juni 2025 verlassen und bin seitdem nur noch an monatlichen Beratungstagen vor Ort.',
-              'Für die betriebswirtschaftlichen Fragen, die im Alltag aufkommen, sollte eine wirkungsvolle Unterstützung für das Sekretariat und den Geschäftsführer gefunden werden – damit die Steuerberatung nicht ständig kontaktiert werden muss und die Kosten niedrig bleiben.',
+              'Für die betriebswirtschaftlichen Fragen, die im Alltag aufkommen, sollte eine wirkungsvolle Unterstützung für das Sekretariat und den Geschäftsführer gefunden werden, damit die Steuerberatung nicht ständig kontaktiert werden muss und die Kosten niedrig bleiben.',
             ],
           },
           { kind: 'subheading', text: 'Maßnahmen' },
@@ -601,15 +601,15 @@ export const experiencesDe: Experience[] = [
     name: 'Websites und Online-Shops gestalten',
     claim: 'Ästhetische Designs, die funktionieren.',
     description: [
-      'Ich kann Unternehmenswebsites, Landing Pages oder Online-Shops entwickeln, die klar strukturiert, ästhetisch präzise und einfach zu pflegen sind. Ziel ist ein Auftritt, der sowohl inhaltlich als auch visuell überzeugt – und dem Unternehmen Ausdruck und Richtung gibt.',
+      'Ich kann Unternehmenswebsites, Landing Pages oder Online-Shops entwickeln, die klar strukturiert, ästhetisch präzise und einfach zu pflegen sind. Ziel ist ein Auftritt, der sowohl inhaltlich als auch visuell überzeugt, und dem Unternehmen Ausdruck und Richtung gibt.',
       'Ich arbeite mit Plattformen wie Webflow, Shopify und Figma und begleite den gesamten Prozess: von der Idee über Design und Umsetzung bis zur Schulung des Teams. Wenn hier Bedarf besteht, kann ich ebenso Warenwirtschaftssysteme oder Point-of-Sale-Anwendungen einrichten.',
-      'So entsteht ein kraftvolles System, das nicht von mir abhängig ist, sondern das Team befähigt, den digitalen Auftritt mit Freude selbst weiterzuentwickeln. Auf Wunsch übernehme ich auch den Austausch bestehender Systeme – inklusive Datenmigration.',
+      'So entsteht ein kraftvolles System, das nicht von mir abhängig ist, sondern das Team befähigt, den digitalen Auftritt mit Freude selbst weiterzuentwickeln. Auf Wunsch übernehme ich auch den Austausch bestehender Systeme, inklusive Datenmigration.',
     ],
     playbook: [
       {
         title: 'Entdeckung',
         intro:
-          'In Workshops und Gesprächen analysiere ich, wie das Unternehmen kommuniziert – und was die Website wirklich leisten soll: Sichtbarkeit, Vertrauen oder Verkauf. Ich identifiziere Brüche im Design, in der Nutzerführung oder in Prozessen und entwickle daraus klare Handlungspunkte.',
+          'In Workshops und Gesprächen analysiere ich, wie das Unternehmen kommuniziert, und was die Website wirklich leisten soll: Sichtbarkeit, Vertrauen oder Verkauf. Ich identifiziere Brüche im Design, in der Nutzerführung oder in Prozessen und entwickle daraus klare Handlungspunkte.',
       },
       {
         title: 'Ideengenerierung',
@@ -619,12 +619,12 @@ export const experiencesDe: Experience[] = [
       {
         title: 'Implementierung',
         intro:
-          'Auf Basis der erarbeiteten Designs setze ich die Website oder den Shop in Webflow oder Shopify um – mit konsistentem Design, klarer Nutzerführung (max. drei Schritte bis zur Handlung) und einem sauberen responsiven Layout. Außerdem kann ich Vorlagen und Inhaltsstrukturen einrichten, damit neue Seiten, Produkte oder Beiträge ohne technische Hürden ergänzt werden können.',
+          'Auf Basis der erarbeiteten Designs setze ich die Website oder den Shop in Webflow oder Shopify um, mit konsistentem Design, klarer Nutzerführung (max. drei Schritte bis zur Handlung) und einem sauberen responsiven Layout. Außerdem kann ich Vorlagen und Inhaltsstrukturen einrichten, damit neue Seiten, Produkte oder Beiträge ohne technische Hürden ergänzt werden können.',
       },
       {
         title: 'Überprüfung',
         intro:
-          'Nach dem Launch überprüfe ich die Ergebnisse – von der Performance bis zur Pflegefreundlichkeit. In klaren, praxisnahen Workshops lernt das Team, Inhalte selbst zu pflegen und das Design konsistent fortzuführen.',
+          'Nach dem Launch überprüfe ich die Ergebnisse, von der Performance bis zur Pflegefreundlichkeit. In klaren, praxisnahen Workshops lernt das Team, Inhalte selbst zu pflegen und das Design konsistent fortzuführen.',
       },
     ],
     caseStudies: [
@@ -634,7 +634,7 @@ export const experiencesDe: Experience[] = [
           { kind: 'subheading', text: 'Ausgangslage' },
           {
             kind: 'paragraph',
-            text: 'Ein Einzelhandelsgeschäft für hochwertige Einrichtungsgegenstände und Modeaccessoires, das seinen Marktzugang mit einem modernen Online-Shop erweitern wollte – um das besondere Einkaufserlebnis auch digital erfahrbar zu machen.',
+            text: 'Ein Einzelhandelsgeschäft für hochwertige Einrichtungsgegenstände und Modeaccessoires, das seinen Marktzugang mit einem modernen Online-Shop erweitern wollte, um das besondere Einkaufserlebnis auch digital erfahrbar zu machen.',
           },
           { kind: 'subheading', text: 'Maßnahmen' },
           {
@@ -683,7 +683,7 @@ export const experiencesDe: Experience[] = [
           { kind: 'subheading', text: 'Ausgangslage' },
           {
             kind: 'paragraph',
-            text: 'Eine aufstrebende Malerin wollte ihre Kunstprodukte, Kooperationen und Workshops in einem Online-Shop präsentieren – farblich abgestimmt auf ihre Werke, visuell ausdrucksstark und funktional.',
+            text: 'Eine aufstrebende Malerin wollte ihre Kunstprodukte, Kooperationen und Workshops in einem Online-Shop präsentieren, farblich abgestimmt auf ihre Werke, visuell ausdrucksstark und funktional.',
           },
           { kind: 'subheading', text: 'Maßnahmen' },
           {
@@ -698,7 +698,7 @@ export const experiencesDe: Experience[] = [
           { kind: 'subheading', text: 'Ergebnis' },
           {
             kind: 'paragraph',
-            text: 'Ein vielseitiger, schneller und mehrsprachiger [Online-Shop](https://kassandra.studio), der nicht nur überrascht, sondern in der Kunstszene heraussticht. Dank klarer Struktur und einfacher Pflege kann die Künstlerin ihre Werke selbstständig vermarkten – und sich weiterhin auf das konzentrieren, was zählt: das Schaffen.',
+            text: 'Ein vielseitiger, schneller und mehrsprachiger [Online-Shop](https://kassandra.studio), der nicht nur überrascht, sondern in der Kunstszene heraussticht. Dank klarer Struktur und einfacher Pflege kann die Künstlerin ihre Werke selbstständig vermarkten, und sich weiterhin auf das konzentrieren, was zählt: das Schaffen.',
           },
         ],
       },
@@ -743,20 +743,20 @@ export const experiencesDe: Experience[] = [
     ],
     caseStudies: [
       {
-        title: 'PacketSafari — Schnelleres Onboarding und mehr Abo-Abschlüsse',
+        title: 'PacketSafari: Schnelleres Onboarding und mehr Abo-Abschlüsse',
         blocks: [
           { kind: 'subheading', text: 'Ausgangslage' },
           {
             kind: 'paragraph',
-            text: '[PacketSafari](https://www.packetsafari.com/) – ein Anbieter von Netzwerkverkehr-Analyse – wollte den Discovery-Prozess seiner Web-App optimieren, damit Nutzer das Produkt schneller testen, der Nutzen sofort deutlich wird und Abonnements zügiger abgeschlossen werden.',
+            text: '[PacketSafari](https://www.packetsafari.com/), ein Anbieter von Netzwerkverkehr-Analyse, wollte den Discovery-Prozess seiner Web-App optimieren, damit Nutzer das Produkt schneller testen, der Nutzen sofort deutlich wird und Abonnements zügiger abgeschlossen werden.',
           },
           { kind: 'subheading', text: 'Maßnahmen' },
           {
             kind: 'bullets',
             items: [
-              'Redesign des Above-the-fold-Bereichs der Landing Page – mit klarer Nutzen-Kommunikation und deutlicher Handlungsaufforderung.',
+              'Redesign des Above-the-fold-Bereichs der Landing Page, mit klarer Nutzen-Kommunikation und deutlicher Handlungsaufforderung.',
               'Umgestaltung der App-UI, sodass Nutzer ihre Daten direkt hochladen und das erste Ergebnis im AI-Copilot kostenlos einsehen können.',
-              'Integration einer Paywall, die alle weiteren Ergebnisse verdeckt: Das erste Ergebnis zeigt den Wert sofort – anschließend kann der Nutzer zu einem fairen Preis ein Abo abschließen.',
+              'Integration einer Paywall, die alle weiteren Ergebnisse verdeckt: Das erste Ergebnis zeigt den Wert sofort. Anschließend kann der Nutzer zu einem fairen Preis ein Abo abschließen.',
             ],
           },
           { kind: 'subheading', text: 'Ergebnis' },
@@ -767,12 +767,12 @@ export const experiencesDe: Experience[] = [
         ],
       },
       {
-        title: 'SiteWorks2 — Präzisere UI-Texte für deutsche Nutzer',
+        title: 'SiteWorks2: Präzisere UI-Texte für deutsche Nutzer',
         blocks: [
           { kind: 'subheading', text: 'Ausgangslage' },
           {
             kind: 'paragraph',
-            text: 'Der Gründer von [SiteWorks2](https://www.siteworks.io/en) – einer Planungs-App für Architekten und Projektleiter – suchte Unterstützung bei der Optimierung der deutschen Lokalisierung. Ein Teil der vorhandenen Übersetzungen war uneinheitlich oder im Anwendungskontext missverständlich.',
+            text: 'Der Gründer von [SiteWorks2](https://www.siteworks.io/en), einer Planungs-App für Architekten und Projektleiter, suchte Unterstützung bei der Optimierung der deutschen Lokalisierung. Ein Teil der vorhandenen Übersetzungen war uneinheitlich oder im Anwendungskontext missverständlich.',
           },
           { kind: 'subheading', text: 'Maßnahmen' },
           {
@@ -831,7 +831,7 @@ export const experiencesDe: Experience[] = [
     ],
     caseStudies: [
       {
-        title: 'Neue Markenidentität für Flinterhoff — Für dich & mich',
+        title: 'Neue Markenidentität für Flinterhoff: Für dich & mich',
         blocks: [
           { kind: 'subheading', text: 'Ausgangslage' },
           {
@@ -851,7 +851,7 @@ export const experiencesDe: Experience[] = [
           { kind: 'subheading', text: 'Ergebnis' },
           {
             kind: 'paragraph',
-            text: 'Das neue Design traf den Kern der Marke: persönlich, hochwertig und vertrauensvoll. Das Team identifizierte sich mit der neuen Identität, und die Zielgruppe fühlte sich angesprochen. Öffnungsraten von 40–55 % und hohe Klickraten bestätigten die Relevanz der Kommunikation.',
+            text: 'Das neue Design traf den Kern der Marke: persönlich, hochwertig und vertrauensvoll. Das Team identifizierte sich mit der neuen Identität, und die Zielgruppe fühlte sich angesprochen. Öffnungsraten von 40-55 % und hohe Klickraten bestätigten die Relevanz der Kommunikation.',
           },
         ],
       },

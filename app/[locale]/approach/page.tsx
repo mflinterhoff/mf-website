@@ -35,7 +35,7 @@ export default async function ApproachPage({ params }: { params: Promise<{ local
             “{approach.quote.text}”
           </blockquote>
           <figcaption className="mt-3 font-mono text-sm text-ink/60 dark:text-paper/60">
-            — {approach.quote.author}
+            {approach.quote.author}
           </figcaption>
         </figure>
         <p className="mt-6 text-base/7 text-ink/75 dark:text-paper/75">{approach.quoteFollow}</p>

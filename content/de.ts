@@ -4,16 +4,16 @@ import { experiencesDe } from './experiences.de'
 const de: SiteContent = {
   locale: 'de',
   meta: {
-    title: 'Matthias Flinterhoff — Macher & Technologe',
+    title: 'Matthias Flinterhoff | Macher & Technologe',
     description:
-      'Praktiker und Gestalter, der Unternehmen umstrukturiert, Systeme einführt und Migrationen durchführt. Ich untersuche und gestalte Organisationen, die Menschen befähigen – statt sie zu ersetzen.',
+      'Praktiker und Gestalter, der Unternehmen umstrukturiert, Systeme einführt und Migrationen durchführt. Ich untersuche und gestalte Organisationen, die Menschen befähigen, statt sie zu ersetzen.',
   },
   nav: [
     { key: 'vita', label: 'Lebenslauf', href: '/vita', icon: 'vita' },
-    { key: 'inspiration', label: 'Inspiration', href: '/inspiration', icon: 'inspiration' },
     { key: 'approach', label: 'Arbeitsweise', href: '/approach', icon: 'approach' },
     { key: 'questions', label: 'Für Führungskräfte', href: '/questions', icon: 'questions' },
     { key: 'experiences', label: 'Erfahrungen', href: '/#experiences', icon: 'refining-business-models' },
+    { key: 'inspiration', label: 'Inspiration', href: '/inspiration', icon: 'inspiration' },
   ],
   ui: {
     skipToContent: 'Zum Inhalt springen',
@@ -23,37 +23,40 @@ const de: SiteContent = {
     openMenu: 'Menü öffnen',
     closeMenu: 'Menü schließen',
     backToHome: 'Zurück zur Startseite',
+    backToExperiences: 'Zurück zu den Erfahrungen',
     learnMore: 'Mehr erfahren',
     onThisPage: 'Auf dieser Seite',
     contactCta: 'Kontakt aufnehmen',
     playbook: 'Playbook',
     caseStudy: 'Fallstudie',
     caseStudies: 'Fallstudien',
+    moreExperiences: 'Weitere Erfahrungen',
   },
   home: {
     quote: 'Ich lebe, um zu gestalten, sorgfältig dabei zu sein, zu verbinden, zu lernen und zu lehren.',
     heroLead:
-      'Seit über 9 Jahren strukturiere ich Unternehmen um, führe Systeme ein und begleite Migrationen – und verantworte die Querschnittsfunktionen Finanzen und Marketing. Zuletzt 3,5 Jahre als Geschäftsführer.',
+      'Seit über 9 Jahren bin ich die Person, der Organisationen vertrauen, wenn etwas verstanden, umstrukturiert und von Menschen angenommen werden muss, die diese Veränderung nicht eingefordert haben.',
     eyebrow: 'Über mich',
     introTitle: 'Macher & Technologe',
+    aboutTitle: 'Veränderung ist mein tägliches Brot',
     intro: [
-      'Seit mehr als neun Jahren bin ich als Praktiker und Gestalter tätig, um Unternehmen umzustrukturieren, Systeme einzuführen, Migrationen durchzuführen und Querschnittsfunktionen wie Finanzen und Marketing verantwortet. Ich übernehme Führung, wenn es darum geht, Komplexität verständlich zu machen, Strukturen neu zu ordnen und Veränderungen auch dort zu verankern, wo sie nicht aus eigenem Antrieb eingefordert wurden. Zuletzt war ich 3,5 Jahre als Geschäftsführer tätig, bevor ich die Arbeit mit meiner Beratung für Unternehmenstransformation wieder aufgenommen habe. Davor leitete ich Projekte als interner Berater für mehr als 4 Jahre.',
+      'Ich bin ein Praktiker mit fundierter Erfahrung in der Umstrukturierung von Unternehmen, der Einführung von Systemen, der Durchführung von Migrationen und der Verantwortung für die Querschnittsfunktionen Finanzen und Marketing. Zuletzt war ich 3,5 Jahre als Geschäftsführer tätig, bevor ich über meine eigene Beratung wieder in die Unternehmenstransformation zurückgekehrt bin. Davor leitete ich über 4 Jahre lang Initiativen als interner Berater.',
       'Aus einer Familie von Unternehmern und ehrenamtlich Engagierten kommend, faszinieren mich Organisationen seit meiner Jugend: Gruppen von Menschen, die zusammenkommen, um ein gemeinsames Ziel zu verfolgen und der Gesellschaft zugutekommen, indem sie Sicherheit, Wohlstand und Kontinuität schaffen.',
       'Sie sind das Rückgrat der Zivilisation, wenn sie richtig geformt werden. [The Company of Strangers von Paul Seabright](https://www.amazon.com/Company-Strangers-Natural-History-Economic/dp/0691146462) bietet hierzu tiefe Einblicke.',
-      'Das ist der Grund, warum ich Organisationen untersuche und gestalte, die Freude machen zu führen, Mitarbeiter:innen aufblühen lassen und Menschen befähigen – statt sie zu ersetzen.',
+      'Das ist der Grund, warum ich Organisationen untersuche und gestalte, die Freude machen zu führen, Mitarbeiter:innen aufblühen lassen und Menschen befähigen, statt sie zu ersetzen.',
     ],
     fresh: {
       label: 'Frisch aus dem Ofen',
       title: 'Monami AI',
       description:
-        'Reibungslose Software, um die wirtschaftliche Kompetenz und KI-Fähigkeiten von Einzelpersonen zu stärken – mein neuestes Produkt, entwickelt mit Claude Code.',
+        'Reibungslose Software, um die wirtschaftliche Kompetenz und KI-Fähigkeiten von Einzelpersonen zu stärken. Mein neuestes Produkt.',
       cta: 'Monami AI besuchen',
       href: 'https://monamiai.com',
     },
     sideProjects: {
       title: 'Nebenprojekte',
       items: [
-        'Mit Claude Code entwickle ich reibungslose Software, um die wirtschaftliche Kompetenz und KI-Fähigkeiten von Einzelpersonen zu stärken. Claude Code ist das erste Tool, das mir das Gefühl gibt, Software in der Geschwindigkeit meiner Gedanken gestalten zu können – konzipieren, entwickeln, testen, iterieren, veröffentlichen. Nichts hält mich mehr auf, und ehrlich gesagt: es macht nahezu süchtig.',
+        'Mit Claude Code entwickle ich reibungslose Software, um die wirtschaftliche Kompetenz und KI-Fähigkeiten von Einzelpersonen zu stärken. Claude Code ist das erste Tool, das mir das Gefühl gibt, Software in der Geschwindigkeit meiner Gedanken gestalten zu können: konzipieren, entwickeln, testen, iterieren, veröffentlichen. Nichts hält mich mehr auf, und ehrlich gesagt: es macht nahezu süchtig.',
       ],
     },
     explore: {
@@ -68,16 +71,9 @@ const de: SiteContent = {
           icon: 'vita',
         },
         {
-          key: 'inspiration',
-          title: 'Was mich inspiriert',
-          description: 'Valencia, Kunst, Bücher, Musik und die Ideen, von denen ich nicht genug bekomme.',
-          href: '/inspiration',
-          icon: 'inspiration',
-        },
-        {
           key: 'approach',
           title: 'Wie ich die Aufgaben erledige',
-          description: 'Eine offene, aber hinterfragende Haltung – erst verstehen, dann mit Freude gestalten.',
+          description: 'Eine offene, aber hinterfragende Haltung: erst verstehen, dann mit Freude gestalten.',
           href: '/approach',
           icon: 'approach',
         },
@@ -88,11 +84,18 @@ const de: SiteContent = {
           href: '/questions',
           icon: 'questions',
         },
+        {
+          key: 'inspiration',
+          title: 'Was mich inspiriert',
+          description: 'Valencia, Kunst, Bücher, Musik und die Ideen, von denen ich nicht genug bekomme.',
+          href: '/inspiration',
+          icon: 'inspiration',
+        },
       ],
     },
     experiences: {
       title: 'Erfahrungen',
-      subtitle: 'Wo ich helfen kann – nach Bereichen gruppiert, jeweils mit Playbook und echten Fallstudien.',
+      subtitle: 'Wo ich helfen kann, nach Bereichen gruppiert, jeweils mit Playbook und echten Fallstudien.',
       areaLabels: {
         corporate: 'Unternehmensführung',
         it: 'IT',
@@ -111,7 +114,7 @@ const de: SiteContent = {
   inspiration: {
     title: 'Was mich inspiriert',
     intro:
-      'Ich lebe mit meiner Frau in Valencia – einer Stadt voller Bewegung, Licht und Farbe. Wir haben [Kassandras](https://kassandra.studio) Werke wie das Titelbild oben in unserem Haus hängen. Sie erinnern mich jeden Tag daran, dass Komplexität nichts Bedrohliches ist, sondern Energie enthält, wenn man sich ihr mit Struktur und Neugier nähert. Aber hier hört es nicht auf.',
+      'Ich lebe mit meiner Frau in Valencia, einer Stadt voller Bewegung, Licht und Farbe. Wir haben [Kassandras](https://kassandra.studio) Werke wie das Titelbild oben in unserem Haus hängen. Sie erinnern mich jeden Tag daran, dass Komplexität nichts Bedrohliches ist, sondern Energie enthält, wenn man sich ihr mit Struktur und Neugier nähert. Aber hier hört es nicht auf.',
     lead: 'Auch hiervon kann ich nicht genug bekommen:',
     items: [
       'Bücher wie Material World von Ed Conway, The Company of Strangers von Paul Seabright, The Inner Game of Tennis von W. Timothy Gallwey oder The Century Trilogy von Ken Follett.',
@@ -130,7 +133,7 @@ const de: SiteContent = {
     sections: [
       {
         title: 'Wie steht es mit der Freude?',
-        body: 'Am Anfang kann es „quick and dirty“ sein, aber muss es so bleiben? Sobald der Produkt-Markt-Fit oder Prozess-Organisation-Fit gefunden wurde, ist es an der Zeit, **sich darum zu kümmern** – benutzerfreundliche, detailorientierte, ästhetisch ansprechende und damit integrative Erfahrungen zu gestalten.',
+        body: 'Am Anfang kann es „quick and dirty“ sein, aber muss es so bleiben? Sobald der Produkt-Markt-Fit oder Prozess-Organisation-Fit gefunden wurde, ist es an der Zeit, **sich Mühe zu geben**: benutzerfreundliche, detailorientierte, ästhetisch ansprechende und damit integrative Erfahrungen zu gestalten.',
         tagline: 'Die Konzentration auf das, was **wirklich wichtig** ist, ist der Schlüssel.',
       },
       {
@@ -216,32 +219,32 @@ const de: SiteContent = {
     experienceTitle: 'Berufliche Erfahrung',
     positions: [
       {
-        period: '06/2025 – heute',
+        period: '06/2025 - heute',
         role: 'Gründer',
         org: 'tahi.design, Valencia, Spanien',
         description:
           'Studio für Unternehmenstransformationen. Wir verschaffen unseren Kunden Stabilität und Klarheit, indem wir digitale Nutzererlebnisse vereinfachen und Systeme optimieren, damit Finanzen, HR und Marketing reibungslos laufen. Außerdem entwickeln wir Produktivitäts-Apps mit Claude Code. Wieder gegründet nach meiner Zeit als Geschäftsführer.',
         note: {
-          title: '01/2026 – 03/2026: Elternzeit',
+          title: '01/2026 - 03/2026: Elternzeit',
           text: 'Meine Frau und ich heißen unser erstes Kind in dieser wunderschönen Welt willkommen. Während dieser Zeit habe ich Value Investing studiert.',
         },
       },
       {
-        period: '01/2022 – 06/2025',
+        period: '01/2022 - 06/2025',
         role: 'Geschäftsführer',
         org: 'Flinterhoff GmbH, Kalkar, Deutschland',
         description:
           'Familienunternehmen mit zwei unterschiedlichen Geschäftsbereichen: Einzelhandel und Metallbau. Ich trat in einer Phase struktureller Komplexität und finanziellen Drucks in die Geschäftsführung ein und konzentrierte mich auf die Wiederherstellung von Klarheit, Stabilität und langfristiger Überlebensfähigkeit. Mein Verantwortungsbereich umfasste Finanzmanagement, System- und Prozess-Design, E-Commerce und strategische Restrukturierung, einschließlich einer erfolgreichen Turnaround-Phase und der verantwortlichen Schließung des Einzelhandelsgeschäfts im Jahr 2024.',
       },
       {
-        period: '01/2021 – 12/2021',
+        period: '01/2021 - 12/2021',
         role: 'Gründer',
         org: 'tahi.design, Kalkar, Deutschland',
         description:
           'Beratung für Unternehmenstransformationen, die klare Marketing-Strategiedokumente, Designsysteme und digitale Erlebnisse sowie Prozesse gestaltet hat. Für die Flinterhoff GmbH haben wir ein Designsystem für die Neupositionierung des Einzelhandels erstellt und mit der Entwicklung eines individuellen E-Commerce-Systems begonnen. Für die Kreishandwerkerschaft Kleve, eine Körperschaft des öffentlichen Rechts, die regionale Handwerksbetriebe unterstützt, führten wir explorative Interviews mit Stakeholdern durch und erstellten daraufhin eine Website, die als zentraler Zugangspunkt für rechtliche Dokumente, Kontakte und berufliche Informationen für über 4.100 Unternehmen dient. Tahi.design wurde nach einem erfolgreichen Jahr geschlossen, um sich auf die Flinterhoff GmbH zu konzentrieren.',
       },
       {
-        period: '09/2016 – 12/2020',
+        period: '09/2016 - 12/2020',
         role: 'Inhouse Consultant',
         org: 'Flinterhoff GmbH, Kalkar, Deutschland',
         description:
@@ -252,19 +255,19 @@ const de: SiteContent = {
     educationTitle: 'Ausbildung',
     education: [
       {
-        degree: 'Master of Arts (M.A.): Medienmanagement & Unternehmertum (2016) – 1,2',
+        degree: 'Master of Arts (M.A.): Medienmanagement & Unternehmertum (2016), 1,2',
         focus:
-          'Abschlussarbeit: Business Model Innovation als wichtiger Werttreiber in Unternehmen – Eine strukturierte Analyse und systematische Bewertung bestehender Konzepte.',
+          'Abschlussarbeit: Business Model Innovation als wichtiger Werttreiber in Unternehmen. Eine strukturierte Analyse und systematische Bewertung bestehender Konzepte.',
         activities:
-          'Aktivitäten: Dozent für digitale Transformation nach dem Abschluss (09/2016–02/2017); Studienreisen nach Berlin, Silicon Valley und Tel Aviv; Rede als Jahrgangssprecher am Abschlusstag.',
-        school: 'Hochschule Fresenius – University of Applied Sciences, Köln, DE',
+          'Aktivitäten: Dozent für digitale Transformation nach dem Abschluss (09/2016-02/2017); Studienreisen nach Berlin, Silicon Valley und Tel Aviv; Rede als Jahrgangssprecher am Abschlusstag.',
+        school: 'Hochschule Fresenius, University of Applied Sciences, Köln, DE',
       },
       {
-        degree: 'Bachelor of Arts (B.A.): Angewandte Medienwissenschaft (2014) – 1,6',
+        degree: 'Bachelor of Arts (B.A.): Angewandte Medienwissenschaft (2014), 1,6',
         focus: 'Schwerpunkte: Medien-, Sport- und Eventmanagement',
         activities:
           'Aktivitäten: Klassensprecher; Unterstützung der Studierendenvertretung bei der Organisation von Veranstaltungen und Begrüßungswochenenden.',
-        school: 'Hochschule Mittweida & Hochschule Fresenius – Universities of Applied Sciences, DE',
+        school: 'Hochschule Mittweida & Hochschule Fresenius, Universities of Applied Sciences, DE',
       },
     ],
     assetsTitle: 'Ressourcen',
@@ -277,7 +280,7 @@ const de: SiteContent = {
     },
     languages: {
       title: 'Sprachen',
-      items: ['Deutsch: Muttersprache', 'Englisch: Verhandlungssicher (C2)', 'Spanisch: Fließend (B2 – Nehme Unterricht)'],
+      items: ['Deutsch: Muttersprache', 'Englisch: Verhandlungssicher (C2)', 'Spanisch: Fließend (B2, nehme Unterricht)'],
     },
     tools: {
       title: 'Relevante Tools',
@@ -287,7 +290,7 @@ const de: SiteContent = {
           label: 'AI',
           tools: [
             { name: 'Claude', href: 'https://claude.ai/', primary: true },
-            { name: 'NotionAI', href: 'https://www.notion.com/product/ai', primary: true },
+            { name: 'NotionAI', href: 'https://www.notion.com/product/ai' },
             { name: 'ChatGPT', href: 'https://chatgpt.com' },
             { name: 'Google Gemini', href: 'https://gemini.google.com/' },
             { name: 'NotebookLM', href: 'https://notebooklm.google/' },
@@ -297,7 +300,7 @@ const de: SiteContent = {
           label: 'Zusammenarbeit',
           tools: [
             { name: 'Google Workspace', href: 'https://workspace.google.com/', primary: true },
-            { name: 'Notion', href: 'https://notion.so', primary: true },
+            { name: 'Notion', href: 'https://notion.so' },
             { name: 'Asana', href: 'https://asana.com/' },
             { name: 'Microsoft 365', href: 'https://www.microsoft.com/microsoft-365' },
             { name: 'Miro', href: 'https://miro.com/' },
@@ -308,7 +311,7 @@ const de: SiteContent = {
           label: 'Inhalte, Entwürfe, Prototyping',
           tools: [
             { name: 'Affinity Studio', href: 'https://www.affinity.studio/', primary: true },
-            { name: 'Figma', href: 'https://figma.com/', primary: true },
+            { name: 'Figma', href: 'https://figma.com/' },
             { name: 'Adobe Creative Cloud', href: 'https://www.adobe.com/creativecloud.html' },
             { name: 'DaVinci Resolve', href: 'https://www.blackmagicdesign.com/products/davinciresolve' },
             { name: 'Canva', href: 'https://canva.com' },
@@ -327,7 +330,7 @@ const de: SiteContent = {
         {
           label: 'No-Code Websites / E-Commerce',
           tools: [
-            { name: 'Shopify', href: 'https://shopify.com', primary: true },
+            { name: 'Shopify', href: 'https://shopify.com' },
             { name: 'Webflow', href: 'https://webflow.com/' },
             { name: 'WiX', href: 'https://www.wix.com/' },
             { name: 'WordPress / WooCommerce', href: 'https://wordpress.com/' },

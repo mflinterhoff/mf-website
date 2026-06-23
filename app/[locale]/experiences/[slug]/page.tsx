@@ -1,14 +1,17 @@
 import type { Metadata } from 'next'
+import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { LOCALES, type Locale } from '@/content/types'
-import { getContent, isLocale } from '@/lib/i18n'
+import { getContent, isLocale, localeHref } from '@/lib/i18n'
 import { experiencesEn } from '@/content/experiences.en'
 import { Container } from '@/components/Container'
 import { PageHeader } from '@/components/PageHeader'
 import { Accordion, type AccordionItem } from '@/components/Accordion'
 import { Blocks } from '@/components/Blocks'
 import { Paragraphs } from '@/components/RichText'
+import { getIcon } from '@/components/icons'
 import { InformationCircleIcon } from '@heroicons/react/24/outline'
+import { ArrowRightIcon } from '@heroicons/react/20/solid'
 
 export function generateStaticParams() {
   return LOCALES.flatMap((locale) => experiencesEn.map((exp) => ({ locale, slug: exp.slug })))
@@ -43,9 +46,18 @@ export default async function ExperiencePage({
     content: <Blocks blocks={cs.blocks} />,
   }))
 
+  // Other experiences in the same area, shown as cards at the bottom.
+  const related = content.experiences.filter((e) => e.area === exp.area && e.slug !== exp.slug)
+
   return (
     <article className="pb-24 sm:pb-32">
-      <PageHeader locale={locale as Locale} backLabel={content.ui.backToHome} eyebrow={areaLabel} title={exp.name} />
+      <PageHeader
+        locale={locale as Locale}
+        backLabel={content.ui.backToExperiences}
+        backHref="/#experiences"
+        eyebrow={areaLabel}
+        title={exp.name}
+      />
       <Container size="narrow">
         <p className="mt-4 text-lg/8 font-medium text-accent-strong dark:text-accent">{exp.claim}</p>
 
@@ -99,6 +111,37 @@ export default async function ExperiencePage({
             </h2>
             <div className="mt-8">
               <Accordion items={caseItems} />
+            </div>
+          </section>
+        ) : null}
+
+        {/* Other experiences in the same area */}
+        {related.length > 0 ? (
+          <section className="mt-16">
+            <h2 className="text-2xl font-semibold tracking-tight text-ink dark:text-paper">
+              {content.ui.moreExperiences}
+            </h2>
+            <div className="mt-8 grid gap-6 sm:grid-cols-2">
+              {related.map((rel) => {
+                const Icon = getIcon(rel.icon)
+                return (
+                  <Link
+                    key={rel.slug}
+                    href={localeHref(locale as Locale, `/experiences/${rel.slug}`)}
+                    className="group flex flex-col rounded-2xl bg-paper-soft p-6 ring-1 ring-ink/10 transition hover:-translate-y-0.5 hover:ring-accent/40 dark:bg-ink-soft dark:ring-paper/10 dark:hover:ring-accent/40"
+                  >
+                    <span className="inline-flex size-11 items-center justify-center rounded-xl bg-accent/10 text-accent">
+                      <Icon aria-hidden="true" className="size-6" />
+                    </span>
+                    <h3 className="mt-5 text-base font-semibold text-ink dark:text-paper">{rel.name}</h3>
+                    <p className="mt-2 flex-1 text-sm/6 text-ink/65 dark:text-paper/65">{rel.claim}</p>
+                    <span className="mt-5 inline-flex items-center gap-1 text-sm font-semibold text-accent">
+                      {content.ui.learnMore}
+                      <ArrowRightIcon aria-hidden="true" className="size-4 transition group-hover:translate-x-0.5" />
+                    </span>
+                  </Link>
+                )
+              })}
             </div>
           </section>
         ) : null}

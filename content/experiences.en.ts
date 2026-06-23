@@ -12,7 +12,7 @@ export const experiencesEn: Experience[] = [
     description: [
       'I analyze business models and organizational structures to create clarity about positioning, strengths, and weaknesses.',
       'Through interviews, workshops, and proven frameworks such as the Business Model Canvas, I critically examine the current situation, identify bottlenecks, and develop a clear strategy with goals and measures.',
-      'This creates a shared understanding within the company — and a solid foundation for decisions that are supported.',
+      'This creates a shared understanding within the company, and a solid foundation for decisions that are supported.',
       'Approachability builds trust. It prevents bigger problems.',
     ],
     note: 'Methodologically, I work with frameworks such as the Business Model Canvas, PESTEL, SWOT, 5-Forces, 4P/3R Marketing Matrix, BCG Matrix, or Aaron Dignan’s OS Canvas.',
@@ -41,7 +41,7 @@ export const experiencesEn: Experience[] = [
         title: 'Turnaround of Flinterhoff GmbH',
         blocks: [
           { kind: 'subheading', text: 'Initial Situation' },
-          { kind: 'paragraph', text: 'Critical economic situation (2015–2016).' },
+          { kind: 'paragraph', text: 'Critical economic situation (2015-2016).' },
           { kind: 'subheading', text: 'Measures' },
           {
             kind: 'bullets',
@@ -78,7 +78,7 @@ export const experiencesEn: Experience[] = [
     name: 'Organizing finances',
     claim: 'Clear structures, reliable data, better decisions.',
     description: [
-      'I bring structure and clarity to your finances — from preliminary bookkeeping to cash flow planning. This allows you to identify financial risks early and create a reliable foundation for decision-making. I am familiar with systems such as Datev UnternehmenOnline, Lexoffice, and Candis, and integrate quickly into existing processes.',
+      'I bring structure and clarity to your finances, from preliminary bookkeeping to cash flow planning. This allows you to identify financial risks early and create a reliable foundation for decision-making. I am familiar with systems such as Datev UnternehmenOnline, Lexoffice, and Candis, and integrate quickly into existing processes.',
     ],
     playbook: [
       {
@@ -129,7 +129,7 @@ export const experiencesEn: Experience[] = [
           { kind: 'subheading', text: 'Result' },
           {
             kind: 'paragraph',
-            text: 'Clarity, ability to act, and control — along with greater satisfaction and smoother collaboration with tax advisory services.',
+            text: 'Clarity, ability to act, and control, along with greater satisfaction and smoother collaboration with tax advisory services.',
           },
         ],
       },
@@ -243,12 +243,12 @@ export const experiencesEn: Experience[] = [
     ],
     caseStudies: [
       {
-        title: 'Switch from Asana to Notion — Flinterhoff GmbH',
+        title: 'Switch from Asana to Notion, Flinterhoff GmbH',
         blocks: [
           { kind: 'subheading', text: 'Initial Situation' },
           {
             kind: 'paragraph',
-            text: 'As Managing Director, I was looking for a more flexible tool that unites projects, tasks and knowledge in one environment. We wanted to maintain our meeting notes, tasks, projects and documents like guidelines or reports centrally — simple, expandable and fast. The apps from Google Workspace offered too little connection and context for this.',
+            text: 'As Managing Director, I was looking for a more flexible tool that unites projects, tasks and knowledge in one environment. We wanted to maintain our meeting notes, tasks, projects and documents like guidelines or reports centrally: simple, expandable and fast. The apps from Google Workspace offered too little connection and context for this.',
           },
           { kind: 'subheading', text: 'Actions' },
           {
@@ -269,12 +269,12 @@ export const experiencesEn: Experience[] = [
         ],
       },
       {
-        title: 'Switch from Microsoft Office 365 to Google Workspace — Flinterhoff GmbH',
+        title: 'Switch from Microsoft Office 365 to Google Workspace, Flinterhoff GmbH',
         blocks: [
           { kind: 'subheading', text: 'Initial Situation' },
           {
             kind: 'paragraph',
-            text: 'During my time as Managing Director, we wanted to simplify collaboration and switch from a hybrid solution to a lean, native cloud environment. Microsoft 365 was too sluggish and confusing in everyday use — we were looking for more speed, clarity and enjoyment in usage.',
+            text: 'During my time as Managing Director, we wanted to simplify collaboration and switch from a hybrid solution to a lean, native cloud environment. Microsoft 365 was too sluggish and confusing in everyday use. We were looking for more speed, clarity and enjoyment in usage.',
           },
           { kind: 'subheading', text: 'Actions' },
           {
@@ -295,7 +295,7 @@ export const experiencesEn: Experience[] = [
         ],
       },
       {
-        title: 'Switch from WooCommerce to Shopify — Flinterhoff GmbH',
+        title: 'Switch from WooCommerce to Shopify, Flinterhoff GmbH',
         blocks: [
           { kind: 'subheading', text: 'Initial Situation' },
           {
@@ -321,12 +321,12 @@ export const experiencesEn: Experience[] = [
         ],
       },
       {
-        title: 'Switch from ERP System NetSoft to SmartHandwerk — Flinterhoff GmbH',
+        title: 'Switch from ERP System NetSoft to SmartHandwerk, Flinterhoff GmbH',
         blocks: [
           { kind: 'subheading', text: 'Initial Situation' },
           {
             kind: 'paragraph',
-            text: 'We were looking for a more affordable, leaner office software with more flexible cancellation options — a system that reliably handles accounting, project management, accounts payable management and customer communication. NetSoft seemed outdated and cumbersome to operate.',
+            text: 'We were looking for a more affordable, leaner office software with more flexible cancellation options, a system that reliably handles accounting, project management, accounts payable management and customer communication. NetSoft seemed outdated and cumbersome to operate.',
           },
           { kind: 'subheading', text: 'Actions' },
           {
@@ -347,7 +347,7 @@ export const experiencesEn: Experience[] = [
         ],
       },
       {
-        title: 'Setup of First ERP & PoS System — Flinterhoff GmbH',
+        title: 'Setup of First ERP & PoS System, Flinterhoff GmbH',
         blocks: [
           { kind: 'subheading', text: 'Initial Situation' },
           {
@@ -368,7 +368,7 @@ export const experiencesEn: Experience[] = [
           { kind: 'subheading', text: 'Result' },
           {
             kind: 'paragraph',
-            text: 'The team found its way around the new software surprisingly quickly. The system brought security, routine and trust — and thus laid the foundation for all subsequent software changes in the company.',
+            text: 'The team found its way around the new software surprisingly quickly. The system brought security, routine and trust, and thus laid the foundation for all subsequent software changes in the company.',
           },
         ],
       },
@@ -430,11 +430,11 @@ export const experiencesEn: Experience[] = [
           { kind: 'subheading', text: 'Result' },
           {
             kind: 'paragraph',
-            text: 'The workspace ran continuously for over four years, covering e-commerce, store operations, and marketing from one shared environment. Over 550 content entries were tracked across 2023–2024 with cost-per-reach and cost-per-interaction calculated automatically. Knowledge and history were preserved in full after the retail unit closed at the end of 2024.',
+            text: 'The workspace ran continuously for over four years, covering e-commerce, store operations, and marketing from one shared environment. Over 550 content entries were tracked across 2023-2024 with cost-per-reach and cost-per-interaction calculated automatically. Knowledge and history were preserved in full after the retail unit closed at the end of 2024.',
           },
           {
             kind: 'note',
-            text: '**Preview Upon Request.** Upon request, I’d be happy to walk you through the workspace — including how the database structure, templates, and reporting could be adapted to your company.',
+            text: '**Preview Upon Request.** Upon request, I’d be happy to walk you through the workspace, including how the database structure, templates, and reporting could be adapted to your company.',
           },
         ],
       },
@@ -492,7 +492,7 @@ export const experiencesEn: Experience[] = [
           { kind: 'subheading', text: 'Initial Situation' },
           {
             kind: 'paragraph',
-            text: 'A clear, customizable planning tool was needed to display liquidity across multiple bank accounts — including overdraft facilities, planned/actual comparison, and flexible timeline evaluation — fully implementable within Google Workspace.',
+            text: 'A clear, customizable planning tool was needed to display liquidity across multiple bank accounts, including overdraft facilities, planned/actual comparison, and flexible timeline evaluation, fully implementable within Google Workspace.',
           },
           { kind: 'subheading', text: 'Measures' },
           {
@@ -506,7 +506,7 @@ export const experiencesEn: Experience[] = [
           { kind: 'subheading', text: 'Result' },
           {
             kind: 'paragraph',
-            text: 'An intuitive, time-saving tool that creates complete transparency over future inflows and outflows — without manual, error-prone calculations or parallel systems.',
+            text: 'An intuitive, time-saving tool that creates complete transparency over future inflows and outflows, without manual, error-prone calculations or parallel systems.',
           },
         ],
       },
@@ -559,14 +559,14 @@ export const experiencesEn: Experience[] = [
     ],
     caseStudies: [
       {
-        title: 'Creating an Advisor for Business Management Questions — Flinterhoff GmbH / KG',
+        title: 'Creating an Advisor for Business Management Questions, Flinterhoff GmbH / KG',
         blocks: [
           { kind: 'subheading', text: 'Initial Situation' },
           {
             kind: 'bullets',
             items: [
               'I left the company in June 2025; since then, only monthly consulting days.',
-              'For the business management questions arising in everyday work, effective support was needed for the secretariat and managing director — to avoid frequently consulting the tax advisor and driving up costs.',
+              'For the business management questions arising in everyday work, effective support was needed for the secretariat and managing director, to avoid frequently consulting the tax advisor and driving up costs.',
             ],
           },
           { kind: 'subheading', text: 'Measures' },
@@ -596,7 +596,7 @@ export const experiencesEn: Experience[] = [
     description: [
       'I develop corporate websites, landing pages, and online shops that are clearly structured, aesthetically precise, and easy to maintain. The goal is a presence that convinces both visually and in content, giving the company expression and direction.',
       'I work with platforms like Webflow, Shopify, and Figma, and guide the entire process: from initial idea through design and implementation to team training. If needed, I also set up inventory management systems or point-of-sale applications.',
-      'This creates a powerful system that empowers the team to develop the digital presence independently with confidence and joy. Upon request, I handle the replacement of existing systems — including data migration.',
+      'This creates a powerful system that empowers the team to develop the digital presence independently with confidence and joy. Upon request, I handle the replacement of existing systems, including data migration.',
     ],
     playbook: [
       {
@@ -612,12 +612,12 @@ export const experiencesEn: Experience[] = [
       {
         title: 'Implementation',
         intro:
-          'I build the website or shop in Webflow or Shopify based on the approved designs — with consistent styling, intuitive user guidance (maximum three steps to any action), and clean responsive layouts. I also set up templates and content structures so new pages, products, or posts can be added without technical barriers.',
+          'I build the website or shop in Webflow or Shopify based on the approved designs, with consistent styling, intuitive user guidance (maximum three steps to any action), and clean responsive layouts. I also set up templates and content structures so new pages, products, or posts can be added without technical barriers.',
       },
       {
         title: 'Review',
         intro:
-          'After launch, I review the results — from performance to maintainability. Through clear, practical workshops, the team learns to manage content independently and maintain design consistency.',
+          'After launch, I review the results, from performance to maintainability. Through clear, practical workshops, the team learns to manage content independently and maintain design consistency.',
       },
     ],
     caseStudies: [
@@ -627,7 +627,7 @@ export const experiencesEn: Experience[] = [
           { kind: 'subheading', text: 'Initial Situation' },
           {
             kind: 'paragraph',
-            text: 'A retail store for high-quality home furnishings and fashion accessories that wanted to expand its market reach with a modern online shop — to make the special shopping experience tangible digitally as well.',
+            text: 'A retail store for high-quality home furnishings and fashion accessories that wanted to expand its market reach with a modern online shop, to make the special shopping experience tangible digitally as well.',
           },
           { kind: 'subheading', text: 'Measures' },
           {
@@ -676,7 +676,7 @@ export const experiencesEn: Experience[] = [
           { kind: 'subheading', text: 'Initial Situation' },
           {
             kind: 'paragraph',
-            text: 'An emerging painter wanted to present her art products, collaborations, and workshops in an online shop — color-coordinated with her works, visually expressive, and functional.',
+            text: 'An emerging painter wanted to present her art products, collaborations, and workshops in an online shop, color-coordinated with her works, visually expressive, and functional.',
           },
           { kind: 'subheading', text: 'Measures' },
           {
@@ -691,7 +691,7 @@ export const experiencesEn: Experience[] = [
           { kind: 'subheading', text: 'Outcome' },
           {
             kind: 'paragraph',
-            text: 'A versatile, fast, and multilingual [online shop](https://kassandra.studio) that not only surprises but stands out in the art scene. Thanks to clear structure and easy maintenance, the artist can market her works independently — and continue to focus on what matters: creating.',
+            text: 'A versatile, fast, and multilingual [online shop](https://kassandra.studio) that not only surprises but stands out in the art scene. Thanks to clear structure and easy maintenance, the artist can market her works independently, and continue to focus on what matters: creating.',
           },
         ],
       },
@@ -736,12 +736,12 @@ export const experiencesEn: Experience[] = [
     ],
     caseStudies: [
       {
-        title: 'PacketSafari — Faster Onboarding and More Subscription Conversions',
+        title: 'PacketSafari: Faster Onboarding and More Subscription Conversions',
         blocks: [
           { kind: 'subheading', text: 'Initial Situation' },
           {
             kind: 'paragraph',
-            text: '[PacketSafari](https://www.packetsafari.com/) — a network traffic analysis provider — wanted to optimize the discovery process of its web app, so users could test the product faster, the value would become immediately clear, and subscriptions would be completed more quickly.',
+            text: '[PacketSafari](https://www.packetsafari.com/), a network traffic analysis provider, wanted to optimize the discovery process of its web app, so users could test the product faster, the value would become immediately clear, and subscriptions would be completed more quickly.',
           },
           { kind: 'subheading', text: 'Measures' },
           {
@@ -760,12 +760,12 @@ export const experiencesEn: Experience[] = [
         ],
       },
       {
-        title: 'SiteWorks2 — More Precise UI Texts for German Users',
+        title: 'SiteWorks2: More Precise UI Texts for German Users',
         blocks: [
           { kind: 'subheading', text: 'Initial Situation' },
           {
             kind: 'paragraph',
-            text: 'The founder of [SiteWorks2](https://www.siteworks.io/en) — a planning app for architects and project managers — sought support in optimizing the German localization. Some existing translations were inconsistent or ambiguous in the application context.',
+            text: 'The founder of [SiteWorks2](https://www.siteworks.io/en), a planning app for architects and project managers, sought support in optimizing the German localization. Some existing translations were inconsistent or ambiguous in the application context.',
           },
           { kind: 'subheading', text: 'Measures' },
           {
@@ -824,7 +824,7 @@ export const experiencesEn: Experience[] = [
     ],
     caseStudies: [
       {
-        title: 'New Brand Identity for Flinterhoff — Für dich & mich',
+        title: 'New Brand Identity for Flinterhoff: Für dich & mich',
         blocks: [
           { kind: 'subheading', text: 'Initial Situation' },
           {
@@ -844,7 +844,7 @@ export const experiencesEn: Experience[] = [
           { kind: 'subheading', text: 'Result' },
           {
             kind: 'paragraph',
-            text: 'The new design captured the essence of the brand: personal, high-quality, and trustworthy. The team identified with the new identity, and the target audience felt addressed. Open rates of 40–55% and high click-through rates confirmed the relevance of the communication.',
+            text: 'The new design captured the essence of the brand: personal, high-quality, and trustworthy. The team identified with the new identity, and the target audience felt addressed. Open rates of 40-55% and high click-through rates confirmed the relevance of the communication.',
           },
         ],
       },

@@ -18,10 +18,9 @@ const inconsolata = Inconsolata({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://mflinterhoff.com'),
-  title: {
-    default: 'Matthias Flinterhoff — Operator & Technologist',
-    template: '%s — Matthias Flinterhoff',
-  },
+  // Fallback title for any route outside /[locale] (e.g. the root redirect).
+  // The per-locale layout defines its own default + template for the site.
+  title: 'Matthias Flinterhoff | Operator & Technologist',
   description:
     'Operator and builder restructuring businesses, implementing systems and running migrations.',
   icons: { icon: '/icon.png', apple: '/apple-icon.png' },
@@ -42,7 +41,7 @@ const themeScript = `
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning className={`${poppins.variable} ${inconsolata.variable}`}>
-      <body>
+      <body suppressHydrationWarning>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
         {children}
       </body>

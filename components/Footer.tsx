@@ -1,12 +1,12 @@
 import Link from 'next/link'
 import { EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
 import type { SiteContent, Locale } from '@/content/types'
-import { LOCALES, LOCALE_LABELS, LOCALE_FLAGS } from '@/content/types'
-import { localeHref, swapLocaleInPath } from '@/lib/i18n'
+import { localeHref } from '@/lib/i18n'
 import { renderInline } from './RichText'
+import { LanguageSwitcher } from './LanguageSwitcher'
 
 export function Footer({ content, locale }: { content: SiteContent; locale: Locale }) {
-  const { footer, nav, home } = content
+  const { footer, nav, home, ui } = content
   const year = new Date().getFullYear()
 
   return (
@@ -14,7 +14,7 @@ export function Footer({ content, locale }: { content: SiteContent; locale: Loca
       <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
         <div className="grid grid-cols-2 gap-10 md:grid-cols-4">
           <div className="col-span-2 md:col-span-1">
-            <img src="/logo.png" alt="Matthias Flinterhoff" className="h-9 w-auto" />
+            <img src="/logo-nav.png" alt="Matthias Flinterhoff" className="h-9 w-auto sm:h-10" />
             <p className="mt-4 max-w-xs text-sm/6 text-ink/60 dark:text-paper/60">{footer.tagline}</p>
           </div>
 
@@ -27,7 +27,7 @@ export function Footer({ content, locale }: { content: SiteContent; locale: Loca
                 <li key={item.key}>
                   <Link
                     href={localeHref(locale, item.href)}
-                    className="text-sm text-ink/70 transition hover:text-accent dark:text-paper/70"
+                    className="text-sm capitalize text-ink/70 transition hover:text-accent dark:text-paper/70"
                   >
                     {item.label}
                   </Link>
@@ -76,21 +76,9 @@ export function Footer({ content, locale }: { content: SiteContent; locale: Loca
             <h3 className="font-mono text-xs font-semibold tracking-wider text-ink/50 uppercase dark:text-paper/50">
               {footer.languagesTitle}
             </h3>
-            <ul className="mt-4 space-y-3 text-sm">
-              {LOCALES.map((l) => (
-                <li key={l}>
-                  <Link
-                    href={swapLocaleInPath(`/${locale}`, l)}
-                    className={`inline-flex items-center gap-2 transition hover:text-accent ${
-                      l === locale ? 'font-semibold text-accent' : 'text-ink/70 dark:text-paper/70'
-                    }`}
-                  >
-                    <span aria-hidden="true">{LOCALE_FLAGS[l]}</span>
-                    {LOCALE_LABELS[l]}
-                  </Link>
-                </li>
-              ))}
-            </ul>
+            <div className="mt-4">
+              <LanguageSwitcher locale={locale} label={ui.languageLabel} />
+            </div>
             <h3 className="mt-8 font-mono text-xs font-semibold tracking-wider text-ink/50 uppercase dark:text-paper/50">
               {footer.legalTitle}
             </h3>

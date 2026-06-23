@@ -14,6 +14,9 @@ const variants = {
   secondary:
     'text-ink ring-1 ring-ink/15 hover:bg-ink/5 dark:text-paper dark:ring-paper/20 dark:hover:bg-paper/10',
   ghost: 'text-accent hover:text-accent-strong',
+  // For use on an accent-coloured background (e.g. the inverted contact banner).
+  onAccent: 'bg-white text-accent-strong shadow-sm hover:bg-white/90',
+  onAccentSecondary: 'text-white ring-1 ring-white/40 hover:bg-white/10',
 } as const
 
 export function Button({

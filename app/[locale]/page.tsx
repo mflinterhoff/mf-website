@@ -26,7 +26,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
           className="pointer-events-none absolute -top-32 -right-32 -z-10 size-[36rem] rounded-full bg-accent/15 blur-3xl"
         />
         <Container size="wide" className="py-20 sm:py-28 lg:py-32">
-          <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
+          <div className="grid items-center gap-20 lg:grid-cols-2 lg:gap-16">
             <div>
               <Eyebrow>{home.introTitle}</Eyebrow>
               <h1 className="mt-5 text-4xl font-semibold tracking-tight text-balance text-ink sm:text-5xl lg:text-6xl dark:text-paper">
@@ -63,7 +63,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         <Container size="narrow">
           <Eyebrow>{home.eyebrow}</Eyebrow>
           <h2 className="mt-3 text-3xl font-semibold tracking-tight text-ink sm:text-4xl dark:text-paper">
-            {home.introTitle}
+            {home.aboutTitle}
           </h2>
           <div className="mt-8">
             <Paragraphs items={home.intro} className="text-lg/8 text-ink/75 dark:text-paper/75" />
@@ -141,23 +141,26 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       {/* Experiences */}
       <ExperienceSection content={content} locale={l} />
 
-      {/* Contact */}
-      <section id="contact" className="scroll-mt-24 border-t border-ink/5 py-24 sm:py-32 dark:border-paper/5">
+      {/* Contact — inverted accent banner to highlight the call to action */}
+      <section id="contact" className="scroll-mt-24 bg-accent-strong py-24 sm:py-32">
         <Container size="narrow" className="text-center">
-          <SectionHeading center eyebrow={ui.contactCta} title={home.contact.title} subtitle={home.contact.body} />
+          <div className="mx-auto max-w-2xl">
+            <p className="font-mono text-sm font-medium tracking-wide text-white/80 uppercase">{ui.contactCta}</p>
+            <h2 className="mt-3 text-3xl font-semibold tracking-tight text-balance text-white sm:text-4xl">
+              {home.contact.title}
+            </h2>
+            <p className="mt-4 text-lg/8 text-white/85">{renderInline(home.contact.body)}</p>
+          </div>
           <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
-            <Button href={`mailto:${home.contact.email}`}>
+            <Button href={`mailto:${home.contact.email}`} variant="onAccent">
               <EnvelopeIcon aria-hidden="true" className="size-4" />
               {home.contact.emailCta}
             </Button>
-            <Button href={`tel:${home.contact.phone.replace(/\s/g, '')}`} variant="secondary">
+            <Button href={`tel:${home.contact.phone.replace(/\s/g, '')}`} variant="onAccentSecondary">
               <PhoneIcon aria-hidden="true" className="size-4" />
               {home.contact.phoneCta}
             </Button>
           </div>
-          <p className="mt-8 font-mono text-sm text-ink/60 dark:text-paper/60">
-            {renderInline(`${home.contact.email}  ·  ${home.contact.phone}`)}
-          </p>
         </Container>
       </section>
     </>

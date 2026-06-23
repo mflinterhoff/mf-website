@@ -4,16 +4,16 @@ import { experiencesEn } from './experiences.en'
 const en: SiteContent = {
   locale: 'en',
   meta: {
-    title: 'Matthias Flinterhoff — Operator & Technologist',
+    title: 'Matthias Flinterhoff | Operator & Technologist',
     description:
       'Operator and builder restructuring businesses, implementing systems and running migrations. I study and design organizations that empower people, rather than replace them.',
   },
   nav: [
     { key: 'vita', label: 'Vita', href: '/vita', icon: 'vita' },
-    { key: 'inspiration', label: 'Inspiration', href: '/inspiration', icon: 'inspiration' },
     { key: 'approach', label: 'Approach', href: '/approach', icon: 'approach' },
     { key: 'questions', label: 'For leaders', href: '/questions', icon: 'questions' },
     { key: 'experiences', label: 'Experiences', href: '/#experiences', icon: 'refining-business-models' },
+    { key: 'inspiration', label: 'Inspiration', href: '/inspiration', icon: 'inspiration' },
   ],
   ui: {
     skipToContent: 'Skip to content',
@@ -23,21 +23,24 @@ const en: SiteContent = {
     openMenu: 'Open menu',
     closeMenu: 'Close menu',
     backToHome: 'Back to home',
+    backToExperiences: 'Back to experiences',
     learnMore: 'Learn more',
     onThisPage: 'On this page',
     contactCta: 'Get in touch',
     playbook: 'Playbook',
     caseStudy: 'Case study',
     caseStudies: 'Case studies',
+    moreExperiences: 'More experiences',
   },
   home: {
     quote: 'I live to build, to care, to connect, to learn and to teach.',
     heroLead:
-      'For 9+ years I’ve restructured businesses, implemented systems and run migrations — leading the cross-divisional finance and marketing functions. Most recently 3.5 years as a Managing Director.',
+      'For 9+ years I’ve been the person organizations trust when something needs to be understood, restructured, and adopted by people who didn’t ask for the change.',
     eyebrow: 'About',
     introTitle: 'Operator & Technologist',
+    aboutTitle: 'Change is my bread and butter',
     intro: [
-      'For 9+ years I’ve been an operator and builder restructuring businesses, implementing systems, running migrations and being responsible for the cross-divisional functions finance as well as marketing. I lead when something needs to be understood, reorganized and adopted by people who didn’t ask for the change. Most recently, I spent 3.5 years as a Managing Director before returning to my work in business transformation through my consulting firm. Prior to that, I led initiatives as an in-house consultant for 4+ years.',
+      'I’m an operator with senior experience in restructuring businesses, implementing systems, running migrations, and leading the cross-divisional finance and marketing functions. Most recently, I spent 3.5 years as a Managing Director before returning to business transformation work through my own consulting firm. Before that, I led initiatives as an in-house consultant for 4+ years.',
       'Coming from a family of entrepreneurs and volunteers, I have been fascinated by organizations since my youth: groups of people who come together to pursue a common goal and benefit society by creating security, prosperity, and continuity.',
       'They are the backbone of civilization, if done right. [The Company of Strangers by Paul Seabright](https://www.amazon.com/Company-Strangers-Natural-History-Economic/dp/0691146462) offers deep insight into this.',
       'That’s why I study and design organizations that are fun to run, help employees thrive, and empower people, rather than replace them.',
@@ -46,14 +49,14 @@ const en: SiteContent = {
       label: 'Fresh out of the oven',
       title: 'Monami AI',
       description:
-        'Effortless software to establish economic and AI literacy for individuals — my latest product, built with Claude Code.',
+        'Effortless software to establish economic and AI literacy for individuals. My latest product.',
       cta: 'Visit Monami AI',
       href: 'https://monamiai.com',
     },
     sideProjects: {
       title: 'Side projects',
       items: [
-        'I build effortless software to establish economic and AI literacy for individuals with Claude Code. It is the first tool that makes me feel I can shape software at the speed of my thinking — conceptualize, build, test, iterate, ship. Nothing blocks me anymore, and honestly it borders on addictive.',
+        'I build effortless software to establish economic and AI literacy for individuals with Claude Code. It is the first tool that makes me feel I can shape software at the speed of my thinking: conceptualize, build, test, iterate, ship. Nothing blocks me anymore, and honestly it borders on addictive.',
       ],
     },
     explore: {
@@ -68,16 +71,9 @@ const en: SiteContent = {
           icon: 'vita',
         },
         {
-          key: 'inspiration',
-          title: 'What inspires me',
-          description: 'Valencia, art, books, music and the ideas I can’t get enough of.',
-          href: '/inspiration',
-          icon: 'inspiration',
-        },
-        {
           key: 'approach',
           title: 'How I get things done',
-          description: 'An open yet questioning mindset — seek first to understand, then design for joy.',
+          description: 'An open yet questioning mindset: seek first to understand, then design for joy.',
           href: '/approach',
           icon: 'approach',
         },
@@ -88,11 +84,18 @@ const en: SiteContent = {
           href: '/questions',
           icon: 'questions',
         },
+        {
+          key: 'inspiration',
+          title: 'What inspires me',
+          description: 'Valencia, art, books, music and the ideas I can’t get enough of.',
+          href: '/inspiration',
+          icon: 'inspiration',
+        },
       ],
     },
     experiences: {
       title: 'Experiences',
-      subtitle: 'Where I can help — grouped by area, each with a playbook and real case studies.',
+      subtitle: 'Where I can help, grouped by area, each with a playbook and real case studies.',
       areaLabels: {
         corporate: 'Corporate Management',
         it: 'IT',
@@ -111,7 +114,7 @@ const en: SiteContent = {
   inspiration: {
     title: 'What inspires me',
     intro:
-      'I live with my wife in Valencia — a city full of movement, light and color. We have [Kassandra’s](https://kassandra.studio) works like the cover above hanging in our home. They remind me every day that complexity is not threatening — it contains energy if you approach it with structure and curiosity. But it doesn’t stop there.',
+      'I live with my wife in Valencia, a city full of movement, light and color. We have [Kassandra’s](https://kassandra.studio) works like the cover above hanging in our home. They remind me every day that complexity is not threatening. It contains energy if you approach it with structure and curiosity. But it doesn’t stop there.',
     lead: 'This is what I also can’t get enough of:',
     items: [
       'Books like Material World by Ed Conway, The Company of Strangers by Paul Seabright, The Inner Game of Tennis by W. Timothy Gallwey or The Century Trilogy by Ken Follett.',
@@ -216,32 +219,32 @@ const en: SiteContent = {
     experienceTitle: 'Professional experience',
     positions: [
       {
-        period: '06/2025 – now',
+        period: '06/2025 - now',
         role: 'Founder',
         org: 'tahi.design, Valencia, Spain',
         description:
           'Business transformation studio providing clients with stability and clarity by streamlining digital user experiences and optimizing systems to manage finance, HR and marketing without friction. Building productivity apps with Claude Code. Relaunched after MD tenure at Flinterhoff GmbH.',
         note: {
-          title: '01/2026 – 03/2026: Paternal leave',
+          title: '01/2026 - 03/2026: Paternal leave',
           text: 'My wife and I welcomed our first child into this beautiful world.',
         },
       },
       {
-        period: '01/2022 – 06/2025',
+        period: '01/2022 - 06/2025',
         role: 'Managing Director',
         org: 'Flinterhoff GmbH, Kalkar, Germany',
         description:
           'Family-owned company with two distinct business units: retail and metal construction. I joined the management in a phase of structural complexity and financial pressure and focused on restoring clarity, stability, and long-term viability. My responsibilities covered financial management and forecasting, system and process redesign, digital commerce, and strategic restructuring, including a successful turnaround phase and the responsible closure of the retail business in 2024.',
       },
       {
-        period: '01/2021 – 12/2021',
+        period: '01/2021 - 12/2021',
         role: 'Founder & CEO',
         org: 'tahi.design, Kalkar, Germany',
         description:
           'Business transformation consultancy producing clear marketing manuals, design systems, and digital experiences. For Flinterhoff GmbH, we created a branding design system for retail repositioning and began developing a custom e-commerce system. For Kreishandwerkerschaft Kleve, a public corporation supporting regional trade businesses, we conducted stakeholder research and built a website serving as the central access point for legal documents, contacts, and vocational information for over 4,100 businesses. Tahi.design closed after a successful year to focus on Flinterhoff GmbH.',
       },
       {
-        period: '09/2016 – 12/2020',
+        period: '09/2016 - 12/2020',
         role: 'In-house Consultant',
         org: 'Flinterhoff GmbH, Kalkar, Germany',
         description:
@@ -253,19 +256,19 @@ const en: SiteContent = {
     educationTitle: 'Education',
     education: [
       {
-        degree: 'Master of Arts (M.A.): Media Management & Entrepreneurship (2016) – 1.2',
+        degree: 'Master of Arts (M.A.): Media Management & Entrepreneurship (2016), 1.2',
         focus:
-          'Thesis: Business Model Innovation as an important value driver in corporations — A structured analysis and systematic evaluation of existing concepts.',
+          'Thesis: Business Model Innovation as an important value driver in corporations. A structured analysis and systematic evaluation of existing concepts.',
         activities:
-          'Activities: Lecturer for digital transformation after graduation (09/2016–02/2017); study trips to Berlin, Silicon Valley and Tel Aviv; speech as class representative on graduation day.',
-        school: 'Hochschule Fresenius — University of Applied Sciences, Cologne, GER',
+          'Activities: Lecturer for digital transformation after graduation (09/2016-02/2017); study trips to Berlin, Silicon Valley and Tel Aviv; speech as class representative on graduation day.',
+        school: 'Hochschule Fresenius, University of Applied Sciences, Cologne, GER',
       },
       {
-        degree: 'Bachelor of Arts (B.A.): Applied Media Studies (2014) – 1.6',
+        degree: 'Bachelor of Arts (B.A.): Applied Media Studies (2014), 1.6',
         focus: 'Focus: Media, sports and events management',
         activities:
           'Activities: Class representative; supported the Students’ Association in organizing events and welcome weekends.',
-        school: 'Hochschule Mittweida & Hochschule Fresenius — Universities of Applied Sciences, GER',
+        school: 'Hochschule Mittweida & Hochschule Fresenius, Universities of Applied Sciences, GER',
       },
     ],
     assetsTitle: 'Assets',
@@ -278,7 +281,7 @@ const en: SiteContent = {
     },
     languages: {
       title: 'Languages',
-      items: ['German: Native Language', 'English: Professional (C2)', 'Spanish: Fluent (B2 – Taking classes)'],
+      items: ['German: Native Language', 'English: Professional (C2)', 'Spanish: Fluent (B2, taking classes)'],
     },
     tools: {
       title: 'Relevant Tools',
@@ -288,7 +291,7 @@ const en: SiteContent = {
           label: 'AI',
           tools: [
             { name: 'Claude', href: 'https://claude.ai/', primary: true },
-            { name: 'NotionAI', href: 'https://www.notion.com/product/ai', primary: true },
+            { name: 'NotionAI', href: 'https://www.notion.com/product/ai' },
             { name: 'ChatGPT', href: 'https://chatgpt.com' },
             { name: 'Google Gemini', href: 'https://gemini.google.com/' },
             { name: 'NotebookLM', href: 'https://notebooklm.google/' },
@@ -298,7 +301,7 @@ const en: SiteContent = {
           label: 'Collaboration',
           tools: [
             { name: 'Google Workspace', href: 'https://workspace.google.com/', primary: true },
-            { name: 'Notion', href: 'https://notion.so', primary: true },
+            { name: 'Notion', href: 'https://notion.so' },
             { name: 'Asana', href: 'https://asana.com/' },
             { name: 'Microsoft 365', href: 'https://www.microsoft.com/microsoft-365' },
             { name: 'Miro', href: 'https://miro.com/' },
@@ -309,7 +312,7 @@ const en: SiteContent = {
           label: 'Content, Design, Prototyping',
           tools: [
             { name: 'Affinity Studio', href: 'https://www.affinity.studio/', primary: true },
-            { name: 'Figma', href: 'https://figma.com/', primary: true },
+            { name: 'Figma', href: 'https://figma.com/' },
             { name: 'Adobe Creative Cloud', href: 'https://www.adobe.com/creativecloud.html' },
             { name: 'DaVinci Resolve', href: 'https://www.blackmagicdesign.com/products/davinciresolve' },
             { name: 'Canva', href: 'https://canva.com' },
@@ -328,7 +331,7 @@ const en: SiteContent = {
         {
           label: 'No-Code Website / eCommerce',
           tools: [
-            { name: 'Shopify', href: 'https://shopify.com', primary: true },
+            { name: 'Shopify', href: 'https://shopify.com' },
             { name: 'Webflow', href: 'https://webflow.com/' },
             { name: 'WiX', href: 'https://www.wix.com/' },
             { name: 'WordPress / WooCommerce', href: 'https://wordpress.com/' },
@@ -379,7 +382,7 @@ const en: SiteContent = {
         definition:
           'Change management is the discipline of planning, coordinating, and guiding people, processes, and systems through a transition to achieve a desired outcome within defined constraints of time, budget, and scope. It involves aligning stakeholders, managing communication and adoption, mitigating risks, and ensuring changes are implemented effectively and sustained.',
         sample:
-          'Leading change in organizations where new tools, systems, or workflows had to be adopted by people who didn’t ask for the shift. ERP and POS rollouts, cloud migrations from O365 to Google Workspace, retail repositioning, and the responsible wind-down of one business unit — all delivered with realistic timelines, clear communication, and measurable adoption outcomes.',
+          'Leading change in organizations where new tools, systems, or workflows had to be adopted by people who didn’t ask for the shift. ERP and POS rollouts, cloud migrations from O365 to Google Workspace, retail repositioning, and the responsible wind-down of one business unit. All delivered with realistic timelines, clear communication, and measurable adoption outcomes.',
       },
       {
         term: '5. Marketing',
