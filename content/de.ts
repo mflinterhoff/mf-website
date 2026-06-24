@@ -85,7 +85,7 @@ const de: SiteContent = {
         },
       ],
       cta: 'Monami AI besuchen',
-      href: 'https://monamiai.com',
+      href: 'https://monamiai.com/de',
     },
     explore: {
       title: 'Lernen Sie mich kennen',

@@ -85,7 +85,7 @@ const es: SiteContent = {
         },
       ],
       cta: 'Visitar Monami AI',
-      href: 'https://monamiai.com',
+      href: 'https://monamiai.com/es',
     },
     explore: {
       title: 'Conóceme',
