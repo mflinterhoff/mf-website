@@ -142,7 +142,7 @@ const es: SiteContent = {
   inspiration: {
     title: 'Lo que me inspira',
     intro:
-      'Vivo con mi mujer en Valencia, una ciudad llena de movimiento, luz y color. Tenemos obras [de Kassandra](https://kassandra.studio) como la portada de arriba colgadas en casa. Me recuerdan cada día que la complejidad no es nada amenazador, sino que contiene energía si te acercas a ella con estructura y curiosidad. Pero esto no acaba aquí.',
+      'Vivo con mi mujer en Valencia, una ciudad llena de movimiento, luz y color. Tenemos obras [de Kassandra](https://kassandra.studio) como la portada de abajo colgadas en casa. Me recuerdan cada día que la complejidad no es nada amenazador, sino que contiene energía si te acercas a ella con estructura y curiosidad. Pero esto no acaba aquí.',
     lead: 'De esto tampoco me canso:',
     items: [
       'Construir software sin fricción para impulsar la alfabetización económica y en IA en personas con Claude Code. Es la primera herramienta que me hace sentir que puedo moldear software a la velocidad de mi pensamiento: concebir, construir, probar, iterar, lanzar. Nada me bloquea ya y, sinceramente, roza lo adictivo.',

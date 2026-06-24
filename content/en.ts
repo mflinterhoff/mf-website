@@ -142,7 +142,7 @@ const en: SiteContent = {
   inspiration: {
     title: 'What inspires me',
     intro:
-      'I live with my wife in Valencia, a city full of movement, light and color. We have [Kassandra’s](https://kassandra.studio) works like the cover above hanging in our home. They remind me every day that complexity is not threatening. It contains energy if you approach it with structure and curiosity. But it doesn’t stop there.',
+      'I live with my wife in Valencia, a city full of movement, light and color. We have [Kassandra’s](https://kassandra.studio) works like the cover below hanging in our home. They remind me every day that complexity is not threatening. It contains energy if you approach it with structure and curiosity. But it doesn’t stop there.',
     lead: 'This is what I also can’t get enough of:',
     items: [
       'Building effortless software to establish economic and AI literacy for individuals with Claude Code. It is the first tool that makes me feel I can shape software at the speed of my thinking: conceptualize, build, test, iterate, ship. Nothing blocks me anymore, and honestly it borders on addictive.',
