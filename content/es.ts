@@ -40,7 +40,7 @@ const es: SiteContent = {
     introTitle: 'Gestor y Tecnólogo',
     aboutTitle: 'El cambio es mi pan de cada día',
     intro: [
-      'Soy un operador con amplia experiencia en la reestructuración de empresas, la implementación de sistemas, la ejecución de migraciones y la dirección de las funciones transversales de finanzas y marketing. Más recientemente, pasé 3,5 años como Director General antes de volver al trabajo de transformación empresarial a través de mi propia consultora. Antes de eso, lideré iniciativas como consultor interno durante más de 4 años.',
+      'Soy un operador con experiencia directiva en la reestructuración de empresas, la implementación de sistemas, la ejecución de migraciones y la dirección de las funciones transversales de finanzas y marketing. Más recientemente, pasé 3,5 años como Director General antes de volver al trabajo de transformación empresarial a través de mi propia consultora. Antes de eso, lideré iniciativas como consultor interno durante más de 4 años.',
       'Proveniente de una familia de empresarios y voluntarios, me han fascinado las organizaciones desde mi juventud: grupos de personas que se reúnen para perseguir un objetivo común y benefician a la sociedad creando seguridad, prosperidad y continuidad.',
       'Son la columna vertebral de la civilización, si se hacen bien. [The Company of Strangers de Paul Seabright](https://www.amazon.com/Company-Strangers-Natural-History-Economic/dp/0691146462) ofrece una visión profunda sobre esto.',
       'Eso es precisamente por lo que estudio y diseño organizaciones que sea un placer dirigir, que ayuden a las personas a prosperar y que empoderen a la gente, en lugar de reemplazarla.',
