@@ -142,7 +142,7 @@ const de: SiteContent = {
   inspiration: {
     title: 'Was mich inspiriert',
     intro:
-      'Ich lebe mit meiner Frau in Valencia, einer Stadt voller Bewegung, Licht und Farbe. Wir haben [Kassandras](https://kassandra.studio) Werke wie das Titelbild oben in unserem Haus hängen. Sie erinnern mich jeden Tag daran, dass Komplexität nichts Bedrohliches ist, sondern Energie enthält, wenn man sich ihr mit Struktur und Neugier nähert. Aber hier hört es nicht auf.',
+      'Ich lebe mit meiner Frau in Valencia, einer Stadt voller Bewegung, Licht und Farbe. Wir haben [Kassandras](https://kassandra.studio) Werke wie das Titelbild unten in unserem Haus hängen. Sie erinnern mich jeden Tag daran, dass Komplexität nichts Bedrohliches ist, sondern Energie enthält, wenn man sich ihr mit Struktur und Neugier nähert. Aber hier hört es nicht auf.',
     lead: 'Auch hiervon kann ich nicht genug bekommen:',
     items: [
       'Mit Claude Code reibungslose Software entwickeln, um die wirtschaftliche Kompetenz und KI-Fähigkeiten von Einzelpersonen zu stärken. Es ist das erste Tool, das mir das Gefühl gibt, Software in der Geschwindigkeit meiner Gedanken gestalten zu können: konzipieren, entwickeln, testen, iterieren, veröffentlichen. Nichts hält mich mehr auf, und ehrlich gesagt: es macht nahezu süchtig.',
