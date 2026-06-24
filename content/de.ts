@@ -460,7 +460,7 @@ const de: SiteContent = {
   },
   experiences: experiencesDe,
   footer: {
-    tagline: 'Macher & Gestalter. Ich lebe, um zu gestalten, zu verbinden, zu lernen und zu lehren.',
+    tagline: 'Macher & Technologe. Ich lebe, um zu gestalten, zu verbinden, zu lernen und zu lehren.',
     legalTitle: 'Rechtliches',
     languagesTitle: 'Sprachen',
     exploreTitle: 'Entdecken',
