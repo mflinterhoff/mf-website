@@ -462,7 +462,7 @@ const es: SiteContent = {
   },
   experiences: experiencesEs,
   footer: {
-    tagline: 'Operador y gestor. Construyo, cuido, conecto, aprendo y enseño.',
+    tagline: 'Operador y Tecnólogo. Construyo, cuido, conecto, aprendo y enseño.',
     legalTitle: 'Legal',
     languagesTitle: 'Idiomas',
     exploreTitle: 'Explorar',

@@ -460,7 +460,7 @@ const en: SiteContent = {
   },
   experiences: experiencesEn,
   footer: {
-    tagline: 'Operator & builder. I live to build, to care, to connect, to learn and to teach.',
+    tagline: 'Operator & Technologist. I live to build, to care, to connect, to learn and to teach.',
     legalTitle: 'Legal',
     languagesTitle: 'Languages',
     exploreTitle: 'Explore',
