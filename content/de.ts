@@ -49,15 +49,43 @@ const de: SiteContent = {
       label: 'Frisch aus dem Ofen',
       title: 'Monami AI',
       description:
-        'Reibungslose Software, um die wirtschaftliche Kompetenz und KI-Fähigkeiten von Einzelpersonen zu stärken. Mein neuestes Produkt.',
+        'Schluss mit vagen KI-Antworten, dem Starren auf ein leeres Prompt-Feld und dem Kopieren von Skills von einem Anbieter zum nächsten.',
+      videoLabel: 'Monami AI in Aktion: einen Skill auswählen und an einen KI-Anbieter senden',
+      restartLabel: 'Erneut abspielen',
+      features: [
+        {
+          name: 'Fertige Skills.',
+          description:
+            'Gut strukturierte Prompts für dein Privat- und Berufsleben. Genieße einen KI-Vorsprung und leide nicht unter dem Druck eines leeren Textfelds.',
+        },
+        {
+          name: 'Mit Legenden sprechen.',
+          description:
+            'Hol dir Rückmeldung von Größen wie Steve Jobs, J.R.R. Tolkien, David Attenborough oder Warren Buffett und betrachte deine Arbeit mit ihren Augen.',
+        },
+        {
+          name: 'Smartphone oder Computer.',
+          description:
+            'Starte die App auf dem Gerät, das gerade am nächsten ist, und mach genau dort weiter, wo du aufgehört hast.',
+        },
+        {
+          name: 'Deine KI, deine Wahl.',
+          description:
+            'Öffne ChatGPT, Claude, Gemini, Perplexity oder den Anbieter deiner Wahl mit einem einzigen Tipp.',
+        },
+        {
+          name: 'Kopierten Text einflechten.',
+          description:
+            'Kopiere etwas, wähle einen Skill und füge ihn in den Chat ein. Ergänze deine ungefilterten Gedanken und schick es ab.',
+        },
+        {
+          name: 'Ergebnisse, über die du dich freust.',
+          description:
+            'Mach aus groben Ideen ausgefeilte Ergebnisse – ohne Halluzinationen und ohne Schreibblockade beim Prompten.',
+        },
+      ],
       cta: 'Monami AI besuchen',
       href: 'https://monamiai.com',
-    },
-    sideProjects: {
-      title: 'Nebenprojekte',
-      items: [
-        'Mit Claude Code entwickle ich reibungslose Software, um die wirtschaftliche Kompetenz und KI-Fähigkeiten von Einzelpersonen zu stärken. Claude Code ist das erste Tool, das mir das Gefühl gibt, Software in der Geschwindigkeit meiner Gedanken gestalten zu können: konzipieren, entwickeln, testen, iterieren, veröffentlichen. Nichts hält mich mehr auf, und ehrlich gesagt: es macht nahezu süchtig.',
-      ],
     },
     explore: {
       title: 'Lernen Sie mich kennen',
@@ -117,6 +145,7 @@ const de: SiteContent = {
       'Ich lebe mit meiner Frau in Valencia, einer Stadt voller Bewegung, Licht und Farbe. Wir haben [Kassandras](https://kassandra.studio) Werke wie das Titelbild oben in unserem Haus hängen. Sie erinnern mich jeden Tag daran, dass Komplexität nichts Bedrohliches ist, sondern Energie enthält, wenn man sich ihr mit Struktur und Neugier nähert. Aber hier hört es nicht auf.',
     lead: 'Auch hiervon kann ich nicht genug bekommen:',
     items: [
+      'Mit Claude Code reibungslose Software entwickeln, um die wirtschaftliche Kompetenz und KI-Fähigkeiten von Einzelpersonen zu stärken. Es ist das erste Tool, das mir das Gefühl gibt, Software in der Geschwindigkeit meiner Gedanken gestalten zu können: konzipieren, entwickeln, testen, iterieren, veröffentlichen. Nichts hält mich mehr auf, und ehrlich gesagt: es macht nahezu süchtig.',
       'Bücher wie Material World von Ed Conway, The Company of Strangers von Paul Seabright, The Inner Game of Tennis von W. Timothy Gallwey oder The Century Trilogy von Ken Follett.',
       'Musik wie Maribou State, Khruangbin, Parcels. Ich wähle gerne Musik aus, die zu der Atmosphäre passt, die ich für andere oder für mich selbst schaffen möchte.',
       'Mehr über makroökonomische Trends, internationale Beziehungen und Verhaltensökonomie zu lernen, wie Technologie unsere Gesellschaft nachhaltig positiv beeinflussen kann und wie ich nachhaltige Finanzentscheidungen auf der Grundlage von Value-Investing-Prinzipien treffen kann.',

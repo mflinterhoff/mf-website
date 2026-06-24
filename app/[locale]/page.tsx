@@ -1,6 +1,17 @@
 import Link from 'next/link'
 import { ArrowRightIcon } from '@heroicons/react/20/solid'
-import { EnvelopeIcon, PhoneIcon, ArrowTopRightOnSquareIcon, SparklesIcon } from '@heroicons/react/24/outline'
+import {
+  EnvelopeIcon,
+  PhoneIcon,
+  ArrowTopRightOnSquareIcon,
+  SparklesIcon,
+  Squares2X2Icon,
+  ChatBubbleLeftRightIcon,
+  DevicePhoneMobileIcon,
+  ArrowsRightLeftIcon,
+  ClipboardDocumentCheckIcon,
+  BoltIcon,
+} from '@heroicons/react/24/outline'
 import { notFound } from 'next/navigation'
 import { type Locale } from '@/content/types'
 import { getContent, isLocale, localeHref } from '@/lib/i18n'
@@ -8,7 +19,18 @@ import { Container } from '@/components/Container'
 import { Button, Eyebrow, SectionHeading } from '@/components/ui'
 import { Paragraphs, renderInline } from '@/components/RichText'
 import { ExperienceSection } from '@/components/ExperienceSection'
+import { VideoPlayer } from '@/components/VideoPlayer'
 import { getIcon } from '@/components/icons'
+
+// Icons for the Monami AI feature listing, in content order.
+const freshFeatureIcons = [
+  Squares2X2Icon,
+  ChatBubbleLeftRightIcon,
+  DevicePhoneMobileIcon,
+  ArrowsRightLeftIcon,
+  ClipboardDocumentCheckIcon,
+  BoltIcon,
+]
 
 export default async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params
@@ -71,41 +93,68 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         </Container>
       </section>
 
-      {/* Fresh out of the oven + Side projects */}
-      <section className="py-24 sm:py-32">
+      {/* Fresh out of the oven — Monami AI showcase */}
+      <section className="relative overflow-hidden py-24 sm:py-32">
+        {/* Subdued tri-color wash: Skill blue, Persona orange, Legend purple */}
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-0 -z-10"
+          style={{
+            background:
+              'radial-gradient(55% 45% at 12% 8%, rgba(88,172,228,0.16), transparent 70%),' +
+              'radial-gradient(50% 45% at 88% 14%, rgba(144,88,228,0.14), transparent 72%),' +
+              'radial-gradient(48% 50% at 62% 104%, rgba(228,143,88,0.12), transparent 70%)',
+          }}
+        />
         <Container size="wide">
-          <div className="grid gap-8 lg:grid-cols-2">
-            {/* Fresh card */}
-            <a
-              href={home.fresh.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group relative flex flex-col justify-between overflow-hidden rounded-3xl bg-ink p-8 text-paper ring-1 ring-ink/10 transition hover:-translate-y-0.5 dark:bg-ink-soft dark:ring-paper/10 sm:p-10"
-            >
-              <div
-                aria-hidden="true"
-                className="pointer-events-none absolute -top-24 -right-24 size-72 rounded-full bg-accent/30 blur-3xl"
-              />
-              <div className="relative">
-                <span className="inline-flex items-center gap-2 rounded-full bg-accent/20 px-3 py-1 font-mono text-xs font-medium tracking-wide text-accent-soft uppercase">
-                  <SparklesIcon aria-hidden="true" className="size-4" />
-                  {home.fresh.label}
-                </span>
-                <h3 className="mt-6 text-3xl font-semibold tracking-tight">{home.fresh.title}</h3>
-                <p className="mt-3 max-w-md text-paper/70">{home.fresh.description}</p>
-              </div>
-              <span className="relative mt-8 inline-flex items-center gap-2 text-sm font-semibold text-accent-soft">
+          <div className="mx-auto max-w-2xl text-center">
+            <span className="inline-flex items-center gap-2 rounded-full bg-accent/15 px-3 py-1 font-mono text-xs font-medium tracking-wide text-accent-strong uppercase dark:text-accent-soft">
+              <SparklesIcon aria-hidden="true" className="size-4" />
+              {home.fresh.label}
+            </span>
+            <h2 className="mt-6 text-4xl font-semibold tracking-tight text-balance text-ink sm:text-5xl dark:text-paper">
+              {home.fresh.title}
+            </h2>
+            <p className="mt-5 text-lg/8 text-ink/70 dark:text-paper/70">{home.fresh.description}</p>
+            <div className="mt-8">
+              <Button href={home.fresh.href}>
                 {home.fresh.cta}
-                <ArrowTopRightOnSquareIcon aria-hidden="true" className="size-4 transition group-hover:translate-x-0.5" />
-              </span>
-            </a>
-
-            {/* Side projects */}
-            <div className="flex flex-col justify-center rounded-3xl bg-paper-soft p-8 ring-1 ring-ink/10 dark:bg-ink-soft dark:ring-paper/10 sm:p-10">
-              <h3 className="text-xl font-semibold text-ink dark:text-paper">{home.sideProjects.title}</h3>
-              <Paragraphs items={home.sideProjects.items} className="text-base/7 text-ink/70 dark:text-paper/70" />
+                <ArrowTopRightOnSquareIcon aria-hidden="true" className="size-4" />
+              </Button>
             </div>
           </div>
+        </Container>
+
+        <div className="relative pt-16">
+          <Container size="wide">
+            <VideoPlayer
+              src="/monami-demo.mp4"
+              poster="/monami-demo-poster.jpg"
+              ariaLabel={home.fresh.videoLabel}
+              restartLabel={home.fresh.restartLabel}
+              width={1512}
+              height={830}
+              className="mx-auto max-w-5xl"
+              videoClassName="w-full rounded-2xl shadow-2xl ring-1 ring-ink/10 dark:ring-paper/10"
+            />
+          </Container>
+        </div>
+
+        <Container size="wide" className="mt-28 sm:mt-32">
+          <dl className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-10 text-base/7 text-ink/70 sm:grid-cols-2 lg:max-w-none lg:grid-cols-3 lg:gap-y-16 dark:text-paper/70">
+            {home.fresh.features.map((feature, i) => {
+              const Icon = freshFeatureIcons[i] ?? SparklesIcon
+              return (
+                <div key={feature.name} className="relative pl-9">
+                  <dt className="inline font-semibold text-ink dark:text-paper">
+                    <Icon aria-hidden="true" className="absolute top-1 left-1 size-5 text-accent" />
+                    {feature.name}
+                  </dt>{' '}
+                  <dd className="inline">{feature.description}</dd>
+                </div>
+              )
+            })}
+          </dl>
         </Container>
       </section>
 
