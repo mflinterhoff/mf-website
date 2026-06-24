@@ -40,7 +40,7 @@ const en: SiteContent = {
     introTitle: 'Operator & Technologist',
     aboutTitle: 'Change is my bread and butter',
     intro: [
-      'I’m an operator with senior experience in restructuring businesses, implementing systems, running migrations, and leading the cross-divisional finance and marketing functions. Most recently, I spent 3.5 years as a Managing Director before returning to business transformation work through my own consulting firm. Before that, I led initiatives as an in-house consultant for 4+ years.',
+      'I’m an operator with executive experience in restructuring businesses, implementing systems, running migrations, and leading the cross-divisional finance and marketing functions. Most recently, I spent 3.5 years as a Managing Director before returning to business transformation work through my own consulting firm. Before that, I led initiatives as an in-house consultant for 4+ years.',
       'Coming from a family of entrepreneurs and volunteers, I have been fascinated by organizations since my youth: groups of people who come together to pursue a common goal and benefit society by creating security, prosperity, and continuity.',
       'They are the backbone of civilization, if done right. [The Company of Strangers by Paul Seabright](https://www.amazon.com/Company-Strangers-Natural-History-Economic/dp/0691146462) offers deep insight into this.',
       'That’s why I study and design organizations that are fun to run, help employees thrive, and empower people, rather than replace them.',
