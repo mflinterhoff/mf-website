@@ -49,15 +49,43 @@ const es: SiteContent = {
       label: 'Recién salido del horno',
       title: 'Monami AI',
       description:
-        'Software sin fricción para impulsar la alfabetización económica y en IA en personas. Mi último producto.',
+        'Se acabaron las respuestas vagas de la IA, mirar fijamente un prompt en blanco y copiar y pegar skills de un proveedor a otro.',
+      videoLabel: 'Monami AI en acción: seleccionar un skill y enviarlo a un proveedor de IA',
+      restartLabel: 'Repetir',
+      features: [
+        {
+          name: 'Skills listos para usar.',
+          description:
+            'Prompts bien estructurados para tu vida personal y laboral. Disfruta de una ventaja con la IA y no sufras la presión de la página en blanco.',
+        },
+        {
+          name: 'Habla con leyendas.',
+          description:
+            'Comparte tus ideas con figuras como Steve Jobs, J.R.R. Tolkien, David Attenborough o Warren Buffett y míralas con sus ojos.',
+        },
+        {
+          name: 'Teléfono u ordenador.',
+          description:
+            'Abre la app en el dispositivo que tengas más cerca y retoma justo donde lo dejaste.',
+        },
+        {
+          name: 'Tu IA, tú eliges.',
+          description:
+            'Abre ChatGPT, Claude, Gemini, Perplexity o el proveedor que prefieras con un solo toque.',
+        },
+        {
+          name: 'Entrelaza el texto copiado.',
+          description:
+            'Copia algo, elige un skill e insértalo en el chat. Añade tus ideas en bruto y envíalo.',
+        },
+        {
+          name: 'Resultados que te gustan.',
+          description:
+            'Convierte ideas en bruto en resultados pulidos, sin alucinaciones ni bloqueo ante el prompt.',
+        },
+      ],
       cta: 'Visitar Monami AI',
       href: 'https://monamiai.com',
-    },
-    sideProjects: {
-      title: 'Proyectos paralelos',
-      items: [
-        'Construyo software sin fricción para impulsar la alfabetización económica y en IA en personas con Claude Code. Es la primera herramienta que me hace sentir que puedo moldear software a la velocidad de mi pensamiento: concebir, construir, probar, iterar, lanzar. Nada me bloquea ya y, sinceramente, roza lo adictivo.',
-      ],
     },
     explore: {
       title: 'Conóceme',
@@ -117,6 +145,7 @@ const es: SiteContent = {
       'Vivo con mi mujer en Valencia, una ciudad llena de movimiento, luz y color. Tenemos obras [de Kassandra](https://kassandra.studio) como la portada de arriba colgadas en casa. Me recuerdan cada día que la complejidad no es nada amenazador, sino que contiene energía si te acercas a ella con estructura y curiosidad. Pero esto no acaba aquí.',
     lead: 'De esto tampoco me canso:',
     items: [
+      'Construir software sin fricción para impulsar la alfabetización económica y en IA en personas con Claude Code. Es la primera herramienta que me hace sentir que puedo moldear software a la velocidad de mi pensamiento: concebir, construir, probar, iterar, lanzar. Nada me bloquea ya y, sinceramente, roza lo adictivo.',
       'Libros como Material World de Ed Conway, The Company of Strangers de Paul Seabright, The Inner Game of Tennis de W. Timothy Gallwey o The Century Trilogy de Ken Follett.',
       'Música como Maribou State, Khruangbin, Parcels. Me encanta seleccionar música que encaje con la atmósfera que quiero crear para los demás o para mí mismo.',
       'Aprender más sobre tendencias macroeconómicas, relaciones internacionales y economía del comportamiento, cómo la tecnología puede tener un impacto positivo duradero en nuestras sociedades y cómo puedo tomar decisiones financieras sostenibles basadas en principios de inversión en valor.',

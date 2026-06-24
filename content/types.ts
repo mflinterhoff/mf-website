@@ -126,8 +126,16 @@ export type SiteContent = {
     introTitle: string
     aboutTitle: string
     intro: string[]
-    fresh: { label: string; title: string; description: string; cta: string; href: string }
-    sideProjects: { title: string; items: string[] }
+    fresh: {
+      label: string
+      title: string
+      description: string
+      videoLabel: string
+      restartLabel: string
+      features: { name: string; description: string }[]
+      cta: string
+      href: string
+    }
     explore: {
       title: string
       subtitle: string

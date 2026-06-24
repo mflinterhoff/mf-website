@@ -49,15 +49,43 @@ const en: SiteContent = {
       label: 'Fresh out of the oven',
       title: 'Monami AI',
       description:
-        'Effortless software to establish economic and AI literacy for individuals. My latest product.',
+        'The days of vague AI answers, staring at a blank prompt and copy pasting skills from one provider to another are over.',
+      videoLabel: 'Monami AI in action: selecting a skill and sending it to an AI provider',
+      restartLabel: 'Replay',
+      features: [
+        {
+          name: 'Ready-made skills.',
+          description:
+            'Well-structured prompts for your personal and work life. Enjoy an AI head start, do not suffer from blank page pressure.',
+        },
+        {
+          name: 'Talk to legends.',
+          description:
+            'Bounce your ideas off the likes of Steve Jobs, J.R.R. Tolkien, David Attenborough or Warren Buffett, and see your work through their eyes.',
+        },
+        {
+          name: 'Phone or computer.',
+          description:
+            'Fire up the app on whichever device is closest and pick up exactly where you left off.',
+        },
+        {
+          name: 'Your AI, your choice.',
+          description:
+            'Open ChatGPT, Claude, Gemini, Perplexity or whichever provider you prefer in a single tap.',
+        },
+        {
+          name: 'Weave in copied text.',
+          description:
+            'Copy something, select a skill and insert it into the chat. Add your raw thoughts and send it off.',
+        },
+        {
+          name: 'Results you are happy about.',
+          description:
+            'Turn rough ideas into polished output, without the hallucinations or the prompt-writer’s block.',
+        },
+      ],
       cta: 'Visit Monami AI',
       href: 'https://monamiai.com',
-    },
-    sideProjects: {
-      title: 'Side projects',
-      items: [
-        'I build effortless software to establish economic and AI literacy for individuals with Claude Code. It is the first tool that makes me feel I can shape software at the speed of my thinking: conceptualize, build, test, iterate, ship. Nothing blocks me anymore, and honestly it borders on addictive.',
-      ],
     },
     explore: {
       title: 'Get to know me',
@@ -117,6 +145,7 @@ const en: SiteContent = {
       'I live with my wife in Valencia, a city full of movement, light and color. We have [Kassandra’s](https://kassandra.studio) works like the cover above hanging in our home. They remind me every day that complexity is not threatening. It contains energy if you approach it with structure and curiosity. But it doesn’t stop there.',
     lead: 'This is what I also can’t get enough of:',
     items: [
+      'Building effortless software to establish economic and AI literacy for individuals with Claude Code. It is the first tool that makes me feel I can shape software at the speed of my thinking: conceptualize, build, test, iterate, ship. Nothing blocks me anymore, and honestly it borders on addictive.',
       'Books like Material World by Ed Conway, The Company of Strangers by Paul Seabright, The Inner Game of Tennis by W. Timothy Gallwey or The Century Trilogy by Ken Follett.',
       'Music like Maribou State, Khruangbin, Parcels. I love selecting music that fits the atmosphere I’d like to create for others or myself.',
       'Learning more about macroeconomic trends, international relations and behavioral economics, how tech can have a lasting positive impact on our societies and how I can make sustainable financial decisions based on value investing principles.',
