@@ -40,7 +40,7 @@ const de: SiteContent = {
     introTitle: 'Macher & Technologe',
     aboutTitle: 'Veränderung ist mein tägliches Brot',
     intro: [
-      'Ich bin ein Praktiker mit Führungserfahrung in der Umstrukturierung von Unternehmen, der Einführung von Systemen, der Durchführung von Migrationen und der Verantwortung für die Querschnittsfunktionen Finanzen und Marketing. Zuletzt war ich 3,5 Jahre als Geschäftsführer tätig, bevor ich über meine eigene Beratung wieder in die Unternehmenstransformation zurückgekehrt bin. Davor leitete ich über 4 Jahre lang Initiativen als interner Berater.',
+      'Ich bin ein Praktiker mit Führungserfahrung in der Umstrukturierung von Unternehmen, der Einführung von Systemen, der Durchführung von Migrationen und der Verantwortung für die Querschnittsfunktionen Finanzen und Marketing. Zuletzt war ich 3,5 Jahre als Geschäftsführer tätig, bevor ich als Technologe wieder selbstständig tätig wurde. Davor leitete ich über 4 Jahre lang Initiativen als interner Berater.',
       'Aus einer Familie von Unternehmern und ehrenamtlich Engagierten kommend, faszinieren mich Organisationen seit meiner Jugend: Gruppen von Menschen, die zusammenkommen, um ein gemeinsames Ziel zu verfolgen und der Gesellschaft zugutekommen, indem sie Sicherheit, Wohlstand und Kontinuität schaffen.',
       'Sie sind das Rückgrat der Zivilisation, wenn sie richtig geformt werden. [The Company of Strangers von Paul Seabright](https://www.amazon.com/Company-Strangers-Natural-History-Economic/dp/0691146462) bietet hierzu tiefe Einblicke.',
       'Das ist der Grund, warum ich Organisationen untersuche und gestalte, die Freude machen zu führen, Mitarbeiter:innen aufblühen lassen und Menschen befähigen, statt sie zu ersetzen.',
@@ -249,10 +249,10 @@ const de: SiteContent = {
     positions: [
       {
         period: '06/2025 - heute',
-        role: 'Gründer',
-        org: 'tahi.design, Valencia, Spanien',
+        role: 'Technologe',
+        org: 'Matthias Flinterhoff, Valencia, Spanien',
         description:
-          'Studio für Unternehmenstransformationen. Wir verschaffen unseren Kunden Stabilität und Klarheit, indem wir digitale Nutzererlebnisse vereinfachen und Systeme optimieren, damit Finanzen, HR und Marketing reibungslos laufen. Außerdem entwickeln wir Produktivitäts-Apps mit Claude Code. Wieder gegründet nach meiner Zeit als Geschäftsführer.',
+          'Ich integriere die Systeme, die Organisationen brauchen, um klar zu funktionieren, von der ersten Diagnose bis zur letzten Schulung.',
         note: {
           title: '01/2026 - 03/2026: Elternzeit',
           text: 'Meine Frau und ich heißen unser erstes Kind in dieser wunderschönen Welt willkommen. Während dieser Zeit habe ich Value Investing studiert.',
