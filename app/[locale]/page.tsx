@@ -51,7 +51,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
           <div className="grid items-center gap-20 lg:grid-cols-2 lg:gap-16">
             <div>
               <Eyebrow>{home.introTitle}</Eyebrow>
-              <h1 className="mt-5 text-4xl font-semibold tracking-tight text-balance text-ink sm:text-5xl lg:text-6xl dark:text-paper">
+              <h1 className="mt-5 text-4xl font-semibold tracking-tight text-balance text-ink sm:text-5xl sm:leading-tight lg:text-6xl dark:text-paper">
                 {home.quote}
               </h1>
               <p className="mt-6 max-w-xl text-lg/8 text-ink/70 dark:text-paper/70">{home.heroLead}</p>
