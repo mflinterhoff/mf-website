@@ -40,7 +40,7 @@ const en: SiteContent = {
     introTitle: 'Operator & Technologist',
     aboutTitle: 'Change is my bread and butter',
     intro: [
-      'I’m an operator with executive experience in restructuring businesses, implementing systems, running migrations, and leading the cross-divisional finance and marketing functions. Most recently, I spent 3.5 years as a Managing Director before returning to business transformation work through my own consulting firm. Before that, I led initiatives as an in-house consultant for 4+ years.',
+      'I’m an operator with executive experience in restructuring businesses, implementing systems, running migrations, and leading the cross-divisional finance and marketing functions. Most recently, I spent 3.5 years as a Managing Director before returning to independent work as a technologist. Before that, I led initiatives as an in-house consultant for 4+ years.',
       'Coming from a family of entrepreneurs and volunteers, I have been fascinated by organizations since my youth: groups of people who come together to pursue a common goal and benefit society by creating security, prosperity, and continuity.',
       'They are the backbone of civilization, if done right. [The Company of Strangers by Paul Seabright](https://www.amazon.com/Company-Strangers-Natural-History-Economic/dp/0691146462) offers deep insight into this.',
       'That’s why I study and design organizations that are fun to run, help employees thrive, and empower people, rather than replace them.',
@@ -249,10 +249,10 @@ const en: SiteContent = {
     positions: [
       {
         period: '06/2025 - now',
-        role: 'Founder',
-        org: 'tahi.design, Valencia, Spain',
+        role: 'Technologist',
+        org: 'Matthias Flinterhoff, Valencia, Spain',
         description:
-          'Business transformation studio providing clients with stability and clarity by streamlining digital user experiences and optimizing systems to manage finance, HR and marketing without friction. Building productivity apps with Claude Code. Relaunched after MD tenure at Flinterhoff GmbH.',
+          'I integrate the systems organizations need to operate clearly, from first diagnosis to the last training session.',
         note: {
           title: '01/2026 - 03/2026: Paternal leave',
           text: 'My wife and I welcomed our first child into this beautiful world.',
