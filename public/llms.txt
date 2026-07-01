@@ -1,0 +1,43 @@
+# Matthias Flinterhoff
+
+> Operator & Technologist. Operator and builder restructuring businesses, implementing systems and running migrations. I study and design organizations that empower people, rather than replace them.
+
+Matthias Flinterhoff is an interim operator and technologist with 9+ years as the person organizations trust when something needs to be understood, restructured, and adopted by people who didn't ask for the change. This site is published in English (`/en/`), Deutsch (`/de/`) and Español (`/es/`). The English URLs below are the canonical entry points; the same paths exist under `/de/` and `/es/`.
+
+## Contact
+
+- Email: hi@mflinterhoff.com
+- Phone: +49 156 78402395
+- LinkedIn: https://www.linkedin.com/in/mflinterhoff/
+
+## Pages
+
+- [Home](https://matthiasflinterhoff.com/en/): Who Matthias is, how he works, and where he can help.
+- [Vita](https://matthiasflinterhoff.com/en/vita/): Professional experience, education, skills, tools and a glossary of what he does.
+- [Approach](https://matthiasflinterhoff.com/en/approach/): How he gets things done — an open yet questioning mindset: seek first to understand, then design for joy.
+- [8 critical questions for leaders](https://matthiasflinterhoff.com/en/questions/): The questions he learned to ask himself as a long-time managing director.
+- [Inspiration](https://matthiasflinterhoff.com/en/inspiration/): Valencia, art, books, music and the ideas he can't get enough of.
+
+## Experiences
+
+Areas where Matthias helps, each with a playbook and real case studies.
+
+- [Refining business models and operational processes](https://matthiasflinterhoff.com/en/experiences/refining-business-models/): Providing clarity, setting direction, enabling decisions.
+- [Organizing finances](https://matthiasflinterhoff.com/en/experiences/organizing-finances/): Clear structures, reliable data, better decisions.
+- [Supporting corporate restructuring](https://matthiasflinterhoff.com/en/experiences/corporate-restructuring/): Legally sound, structured implementation.
+- [Supporting software changes](https://matthiasflinterhoff.com/en/experiences/software-changes/): Clean migrations without downtime.
+- [Simplifying processes through intelligent tool integration](https://matthiasflinterhoff.com/en/experiences/tool-integration/): Enjoy using systems. Consolidate knowledge and share it confidently.
+- [Integrating generative artificial intelligence into your business processes](https://matthiasflinterhoff.com/en/experiences/generative-ai/): Empower people, don't replace them.
+- [Designing websites and commerce experiences](https://matthiasflinterhoff.com/en/experiences/websites-commerce/): Aesthetic designs that work.
+- [Ensuring the quality and user-friendliness of your website or app](https://matthiasflinterhoff.com/en/experiences/quality-usability/): Build, maintain, and regain trust.
+- [Creating branding and design systems](https://matthiasflinterhoff.com/en/experiences/branding-design-systems/): Recognizable features that inspire confidence.
+
+## Other languages
+
+- Deutsch: https://matthiasflinterhoff.com/de/
+- Español: https://matthiasflinterhoff.com/es/
+
+## Legal
+
+- [Notice / Impressum](https://matthiasflinterhoff.com/en/legal/notice/)
+- [Privacy](https://matthiasflinterhoff.com/en/legal/privacy/)

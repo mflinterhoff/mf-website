@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { LOCALES, type Locale } from '@/content/types'
 import { getContent, isLocale } from '@/lib/i18n'
+import { SITE_URL } from '@/lib/site'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { LangSync } from '@/components/LangSync'
@@ -51,8 +52,46 @@ export default async function LocaleLayout({
   if (!isLocale(locale)) notFound()
   const content = getContent(locale as Locale)
 
+  // Structured data (schema.org) describing the existing content in a form
+  // search engines and answer engines can parse. All values are derived from
+  // the localized content — nothing new is asserted here.
+  const jobTitle = content.meta.title.split('|')[1]?.trim() ?? content.meta.title
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'Person',
+        '@id': `${SITE_URL}/#person`,
+        name: 'Matthias Flinterhoff',
+        url: `${SITE_URL}/${locale}/`,
+        image: `${SITE_URL}/profile.jpg`,
+        jobTitle,
+        description: content.meta.description,
+        email: 'mailto:hi@mflinterhoff.com',
+        telephone: '+49 156 78402395',
+        sameAs: ['https://www.linkedin.com/in/mflinterhoff/'],
+        knowsLanguage: ['en', 'de', 'es'],
+        knowsAbout: content.experiences.map((exp) => exp.name),
+      },
+      {
+        '@type': 'WebSite',
+        '@id': `${SITE_URL}/#website`,
+        url: `${SITE_URL}/`,
+        name: 'Matthias Flinterhoff',
+        description: content.meta.description,
+        inLanguage: locale,
+        author: { '@id': `${SITE_URL}/#person` },
+        publisher: { '@id': `${SITE_URL}/#person` },
+      },
+    ],
+  }
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <LangSync locale={locale as Locale} />
       <a
         href="#main"
