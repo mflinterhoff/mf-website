@@ -17,7 +17,7 @@ const inconsolata = Inconsolata({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://mflinterhoff.com'),
+  metadataBase: new URL('https://matthiasflinterhoff.com'),
   // Fallback title for any route outside /[locale] (e.g. the root redirect).
   // The per-locale layout defines its own default + template for the site.
   title: 'Matthias Flinterhoff | Operator & Technologist',
